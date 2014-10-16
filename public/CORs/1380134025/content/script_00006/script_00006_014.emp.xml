@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentItem adaptive="false" compilerVersion="3.3.2.78" identifier="ITEM_014" playerVersion="1.8.0" timeDependent="false" title="Test 5">
+<styleDeclaration><link href="../common/mcc_lesson.css" userAgent=".*"/><link href="../common/mcc_activity_page.css" userAgent=".*"/><link href="../common/default.css" userAgent=".*"/><link href="../common/exer.css" userAgent=".*"/></styleDeclaration>
+	<variableProcessing template="default"/>
+		<outcomeDeclaration cardinality="single" identifier="DONE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+		<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+		<outcomeDeclaration cardinality="single" identifier="RESET"/>
+		<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO">
+		<defaultValue>
+			<value>1</value>
+		</defaultValue>
+	</outcomeDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="CHOICE_RESPONSE_5-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="CHOICE_RESPONSE_5-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="CHOICE_RESPONSE_5-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="CHOICE_RESPONSE_5-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="CHOICE_RESPONSE_5-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="CHOICE_RESPONSE_5-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="CHOICE_RESPONSE_5-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="CHOICE_RESPONSE_5-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="CHOICE_RESPONSE_5">
+					<correctResponse>
+						<value>CHOICE_RESPONSE_5_3</value>
+					</correctResponse>
+				</responseDeclaration>
+		<itemBody>
+
+		<div class="mcc_activity_page">
+				<div class="page_title">
+					<div class="pageicon"/>
+					<div class="pagetitle"><info class="report-custom1-content2"/></div>
+       			</div>			
+            <group class="exer" id="dummy1">
+	<div id="activities">
+		<simpleText class="title" id="dummy1_1">
+Choose the correct answer to the question.</simpleText>
+		<simpleText id="dummy1_2">
+What do the letters P and A mean in the example given in the topic?</simpleText>
+		<choiceInteraction id="dummy1_3" maxChoices="1" responseIdentifier="CHOICE_RESPONSE_5" shuffle="false">
+	<simpleChoice identifier="CHOICE_RESPONSE_5_0">P - the length of a square's side, A - surface.	</simpleChoice>
+	<simpleChoice identifier="CHOICE_RESPONSE_5_1">P - surface, A - the length of two sides of the square.	</simpleChoice>
+	<simpleChoice identifier="CHOICE_RESPONSE_5_2">P - square, A - the length of the square's side.	</simpleChoice>
+	<simpleChoice identifier="CHOICE_RESPONSE_5_3">P - surface, A - the length of a side of the square.	</simpleChoice>
+	<simpleChoice identifier="CHOICE_RESPONSE_5_4">P - map scale, a - the length of the square's side.	</simpleChoice>
+	<feedbacks>
+		<feedback>
+			<condition>
+				<and>
+		<propertyCondition property="ok"/>
+				</and>
+			</condition>
+		<action>
+			<showText/>
+				<showUrl href="media/ok.mp3" type="narration">
+								<source src="media/ok.mp3" type="audio/mp4"/>
+				</showUrl>
+		</action>
+		</feedback>
+		<feedback>
+			<condition>
+				<and>
+		<propertyCondition property="wrong"/>
+				</and>
+			</condition>
+		<action>
+			<showText/>
+				<showUrl href="media/wrong.mp3" type="narration">
+								<source src="media/wrong.mp3" type="audio/mp4"/>
+				</showUrl>
+		</action>
+		</feedback>
+	</feedbacks>
+</choiceInteraction>
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		<!-- cannot find module for dummy 'dummy11'!-->
+        <!-- cannot find module for dummy 'dummy12'!-->
+        <!-- cannot find module for dummy 'dummy13'!-->
+		<!-- cannot find module for dummy 'dummy14'!-->
+        <!-- cannot find module for dummy 'dummy15'!-->
+        <!-- cannot find module for dummy 'dummy16'!-->
+		<!-- cannot find module for dummy 'dummy17'!-->
+        <!-- cannot find module for dummy 'dummy18'!-->
+        <!-- cannot find module for dummy 'dummy19'!-->
+		<!-- cannot find module for dummy 'dummy20'!-->
+        <!-- cannot find module for dummy 'dummy21'!-->
+        <!-- cannot find module for dummy 'dummy22'!-->
+		<!-- cannot find module for dummy 'dummy23'!-->
+        <!-- cannot find module for dummy 'dummy24'!-->
+        <!-- cannot find module for dummy 'dummy25'!-->
+	</div>
+	<div id="activityButtons">
+        <markAllButton id="markAnswers"/>
+        <showAnswersButton id="showAnswers"/>
+        <resetButton id="reset"/>
+    </div>
+</group>
+            <!-- cannot find module for dummy 'dummy2'!-->
+            <!-- cannot find module for dummy 'dummy3'!-->
+            <!-- cannot find module for dummy 'dummy4'!-->
+            <!-- cannot find module for dummy 'dummy5'!-->
+            <!-- cannot find module for dummy 'dummy6'!-->
+            <!-- cannot find module for dummy 'dummy7'!-->
+            <!-- cannot find module for dummy 'dummy8'!-->
+            <!-- cannot find module for dummy 'dummy9'!-->
+            <!-- cannot find module for dummy 'dummy10'!-->
+        </div>
+			</itemBody>
+</assessmentItem>

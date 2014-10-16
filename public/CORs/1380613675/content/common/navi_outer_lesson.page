@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page width="800" height="570" dictionary="../dictionary/dictionary.swf?x=120&amp;y=100&amp;usePlayer=false&amp;word=" onResourcesLoaded="_root.unchainPopups()" controlVisibility="false" binaryCheck="false" doneAfterVisit="false" backgroundFeedbacks="false" background="ffffffff">
+  <properties>
+    <property name="showanswerscolor" type="color" value="ff00b031"/>
+    <property name="textexportversion" type="integer" value="1"/>
+  </properties>
+  <tooltipDecoration shadowDisplacement="3" textColor="ffb93612">
+    <solidFill color="ffffffff"/>
+    <border borderType="single" borderColor="fa6432" borderThickness="1" borderLeftMargin="3" borderTopMargin="1" borderRightMargin="2" borderBottomMargin="1"/>
+  </tooltipDecoration>
+  <movie name="PicturePlayer" x="16" y="531" width="196" height="40" src="bt_panel.swf">
+    <progress name="ProgressBar1" x="0" y="0" width="0" height="0" src="" type="progressbar" alignment="horizontal" frameColor="00000000" frameThickness="1" background="ffffffff" frameMargin="1" color="ffffffff" progressIndicator="continous" elementCount="20" elementDistance="2" elementSize="7" slider=""/>
+  </movie>
+  <button name="Button_prev" x="0" y="283" width="28" height="27" src="bt_pageprev.swf" href="script:_root.showURL( prev.link?inPage=true)" tipId="Action Button-1959436839" tooltipAlignment="default">
+    <onTurnOn command=""/>
+    <onTurnOff command=""/>
+  </button>
+  <button name="Button_next" x="772" y="419" width="28" height="27" src="bt_pagenext.swf" href="script:_root.showURL(next.link?inPage=true)" tipId="Action Button-721491171" tooltipAlignment="default">
+    <onTurnOn command=""/>
+    <onTurnOff command=""/>
+  </button>
+  <ac name="navigation_bar" x="14" y="0" width="750" height="130" initiallySolved="false" mouseOpaque="false" isActive="true" includeerrorsinresult="true" containerId="" presentationTime="0" rememberBlockade="false">
+    <resultWindows>
+      <resultWindow from="0" to="100" href="../result_window.zpg"/>
+    </resultWindows>
+    <acfeedbacks>
+      <group condition="ALL_OK" sequence="random"/>
+      <group condition="OK" sequence="random"/>
+      <group condition="WRONG" sequence="random"/>
+      <group condition="HELP" sequence="random"/>
+    </acfeedbacks>
+    <convertResults/>
+    <simplePageSwitch name="Prosty przełącznik stron1" x="0" y="1" width="750" height="50" onDataReady="" blockCompletePages="true">
+      <nextButton src="bt_nextpage.swf" tip="" x="709" y="18" width="20" height="22"/>
+      <prevButton src="bt_prevpage.swf" tip="" x="646" y="18" width="20" height="22"/>
+      <indicator x="672" y="18" width="40" height="30">
+        <format font="Arial" size="14" bold="true" italic="false" color="ffcc0000"/>
+      </indicator>
+      <switch x="430" y="22" width="195" height="32" blocked="false" src="bt_page.swf" layout="horizontal" rightSrc="scrollnextpage.swf" leftSrc="scrollprevpage.swf" normalColor="ffcc0000" selectedColor="ffcc0000" overColor="ffcc0000" buttonsXSpace="4" center="false">
+        <format font="Arial" size="14" bold="true" italic="false"/>
+        <buttons>
+          <button src="bt_page.swf" ranges="1-99" number_op_arg="1" matchRangeAndPrefix="false"/>
+        </buttons>
+      </switch>
+    </simplePageSwitch>
+    <movie name="Ilustracja" x="0" y="0" width="751" height="106" src="navipanel_teachers_lesson.swf">
+      <progress name="ProgressBar" x="0" y="0" width="0" height="0" src="" type="progressbar" alignment="horizontal" frameColor="00000000" frameThickness="1" background="ffffffff" frameMargin="1" color="ffffffff" progressIndicator="continous" elementCount="20" elementDistance="2" elementSize="7" slider=""/>
+    </movie>
+  </ac>
+  <pageInPage name="Strona w stronie" x="14" y="70" width="750" height="500"/>
+</page>

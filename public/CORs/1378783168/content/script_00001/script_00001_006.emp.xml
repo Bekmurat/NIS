@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentItem adaptive="false" compilerVersion="3.3.2.78" identifier="ITEM_006" playerVersion="1.8.0" timeDependent="false" title="Самые большие клетки">
+<styleDeclaration><link href="../common/mcc_lesson.css" userAgent=".*"/><link href="../common/mcc_media_page.css" userAgent=".*"/><link href="../common/default.css" userAgent=".*"/><link href="../common/text_d.css" userAgent=".*"/><link href="../common/slideshow.css" userAgent=".*"/></styleDeclaration>
+	<variableProcessing template="default"/>
+		<outcomeDeclaration cardinality="single" identifier="DONE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+		<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+		<outcomeDeclaration cardinality="single" identifier="RESET"/>
+		<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO">
+		<defaultValue>
+			<value>0</value>
+		</defaultValue>
+	</outcomeDeclaration>
+		<itemBody>
+
+		<div class="mcc_media_page">
+				<div class="page_title">
+					<div class="pageicon"/>
+					<div class="pagetitle"><info class="report-custom1-content2"/></div>
+       			</div>
+            <group class="text_d" id="dummy1">
+	<div id="text_d">
+		<simpleText id="dummy1_1">
+Самой большой животной клеткой является яйцеклетка, или яйцо страуса. Оно достигает 25 сантиметров (10 дюймов) в длину и может весить более 1,5 кг (3,3 фунта). 
+<br/>
+ 
+<br/>
+Самые длинные растительные клетки у индийского растения под названием рами. Они достигают до 50 см (20 дюймов) в длину. 
+<br/>
+ 
+<br/>
+Самый большой многоклеточный организм, живущий на Земле — синий кит. Его масса может достигать до 190 тонн. Только его сердце весит только 700 кг (1543 фунтов). 
+<br/>
+ 
+<br/>
+Самыми большими деревьями, которые растут в настоящее время, являются гигантские секвойи родом из Калифорнии. Их вес оценивается в 1,2 млн. тонн, а их высота составляет около 94 м (308 футов).</simpleText>
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+            <group class="slideshow" id="dummy2">
+	<div id="slideshow">
+		<slideshowPlayer id="dummy2_1">
+	<slideshow>
+			<title/>
+	<slide startTime="0">
+<slideTitle>Страусиное яйцо</slideTitle>
+			<source src="media/mcc_sc_up_10_01_06p.jpg"/>
+	</slide>
+	<slide startTime="0">
+<slideTitle>Синий кит</slideTitle>
+			<source src="media/mcc_sc_up_10_01_08p.jpg"/>
+	</slide>
+	<slide startTime="0">
+<slideTitle>Гигантские секвойи</slideTitle>
+			<source src="media/mcc_sc_up_10_01_09p.jpg"/>
+	</slide>
+	</slideshow>
+</slideshowPlayer>
+
+
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+            <!-- cannot find module for dummy 'dummy3'!-->
+            <!-- cannot find module for dummy 'dummy4'!-->
+            <!-- cannot find module for dummy 'dummy5'!-->
+            <!-- cannot find module for dummy 'dummy6'!-->
+            <!-- cannot find module for dummy 'dummy7'!-->
+            <!-- cannot find module for dummy 'dummy8'!-->
+            <!-- cannot find module for dummy 'dummy9'!-->
+            <!-- cannot find module for dummy 'dummy10'!-->
+        </div>
+			</itemBody>
+</assessmentItem>

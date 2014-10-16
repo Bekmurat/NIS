@@ -1,0 +1,10 @@
+<?xml version="1.0"?> 
+<styles default="qs">
+	<style id="qs" mode="force">
+		<def>
+			<selector type="page" />
+			<d n="queue-sounds" v="true"/>
+			<d n="queued-sounds" v="pd_feed_all_OK_01.mp3,pd_feed_all_OK_02.mp3,pd_feed_all_OK_03.mp3,pd_feed_all_OK_04.mp3,pd_feed_all_OK_05.mp3,pd_feed_all_OK_06.mp3" />
+		</def>
+	</style>
+</styles>

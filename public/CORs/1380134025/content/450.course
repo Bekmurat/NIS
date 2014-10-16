@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<course xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.ydp.pl/cms/course" id="toc450">
+   <name>Geography</name>
+   <desc></desc>
+   <cs name="450.course" xlink:href="450.cs"/>
+</course>

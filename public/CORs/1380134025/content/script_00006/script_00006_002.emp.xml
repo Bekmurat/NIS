@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentItem adaptive="false" compilerVersion="3.3.2.78" identifier="ITEM_002" playerVersion="1.8.0" timeDependent="false" title="Numerical Scales and Verbal Scales">
+<styleDeclaration><link href="../common/mcc_lesson.css" userAgent=".*"/><link href="../common/mcc_info_page.css" userAgent=".*"/><link href="../common/default.css" userAgent=".*"/><link href="../common/text.css" userAgent=".*"/></styleDeclaration>
+	<variableProcessing template="default"/>
+		<outcomeDeclaration cardinality="single" identifier="DONE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+		<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+		<outcomeDeclaration cardinality="single" identifier="RESET"/>
+		<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO">
+		<defaultValue>
+			<value>0</value>
+		</defaultValue>
+	</outcomeDeclaration>
+		<itemBody>
+
+			<div class="mcc_info_page">
+				<div class="page_title">
+					<div class="pageicon"/>
+					<div class="pagetitle"><info class="report-custom1-content2"/></div>
+       			</div>
+            <group class="text" id="dummy1">
+	<div id="text">
+		<simpleText id="dummy1_1">
+A numerical scale informs us how many units of distance on the ground are contained in one unit of distance on the map. For example, the scale 1 to 1,000,000 means that one centimeter on the map corresponds to a million centimeters – 10 km – on the ground. A verbal scale is obtained by comparing the units of measurement. For example, the scale 1 to 1,000,000 in its verbal form is expressed this way: 1 cm = 10 km, which means that one centimeter on the map corresponds to 10 km on the ground.</simpleText>
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+            <!-- cannot find module for dummy 'dummy2'!-->
+            <!-- cannot find module for dummy 'dummy3'!-->
+            <!-- cannot find module for dummy 'dummy4'!-->
+            <!-- cannot find module for dummy 'dummy5'!-->
+            <!-- cannot find module for dummy 'dummy6'!-->
+            <!-- cannot find module for dummy 'dummy7'!-->
+            <!-- cannot find module for dummy 'dummy8'!-->
+            <!-- cannot find module for dummy 'dummy9'!-->
+            <!-- cannot find module for dummy 'dummy10'!-->
+        </div>
+			</itemBody>
+</assessmentItem>

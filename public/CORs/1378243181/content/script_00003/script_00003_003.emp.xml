@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentItem adaptive="false" compilerVersion="3.3.2.78" identifier="ITEM_003" playerVersion="1.8.0" timeDependent="false" title="1-жаттығу">
+<styleDeclaration><link href="../common/mcc_lesson.css" userAgent=".*"/><link href="../common/mcc_activity_page.css" userAgent=".*"/><link href="../common/default.css" userAgent=".*"/><link href="../common/exer.css" userAgent=".*"/></styleDeclaration>
+	<variableProcessing template="default"/>
+		<outcomeDeclaration cardinality="single" identifier="DONE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+		<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+		<outcomeDeclaration cardinality="single" identifier="RESET"/>
+		<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO">
+		<defaultValue>
+			<value>4</value>
+		</defaultValue>
+	</outcomeDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_1-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_1-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_1-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_1">
+					<correctResponse>
+						<value forIndex="0">спора түзбейтін</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_2-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_2-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_2-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_2">
+					<correctResponse>
+						<value forIndex="0">бір жарым</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_3-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_3-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_3-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_3">
+					<correctResponse>
+						<value forIndex="0">Түйреуіш тәрізді плаун</value>
+					</correctResponse>
+				</responseDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-TODO"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_4-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="EDIT_RESPONSE_4-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="EDIT_RESPONSE_4-MISTAKES"/>
+				<responseDeclaration cardinality="single" checkMode="default" countMode="single" identifier="EDIT_RESPONSE_4">
+					<correctResponse>
+						<value forIndex="0">тасты</value>
+					</correctResponse>
+				</responseDeclaration>
+		<itemBody>
+
+		<div class="mcc_activity_page">
+				<div class="page_title">
+					<div class="pageicon"/>
+					<div class="pagetitle"><info class="report-custom1-content2"/></div>
+       			</div>			
+            <group class="exer" id="dummy1">
+	<div id="activities">
+		<simpleText class="title" id="dummy1_1">
+Қырықжапырақтар жайлы сөйлемдерді төмендегі тізімнен сөздерді таңдап, бос орынға қойып толықтырыңыз.</simpleText>
+		<textInteraction id="dummy1_2">
+<span>1. Қырықжапырақтың екі түрлі жапырағы болады –  </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_1" sourcelistId="defaultSourceListId"/><span> және ұзынша келген спора түзетін жапырағы.
+<br/>
+
+<br/>
+2. Қырықжапырақтың жапырақтары </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_2" sourcelistId="defaultSourceListId"/><span> метрге дейін өсе алады.
+<br/>
+
+<br/>
+3. </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_3" sourcelistId="defaultSourceListId"/><span> құрғақ ормандарда және шөлейтті жерлерде кездеседі.
+<br/>
+
+<br/>
+4. Кәдімгі шығыршық шөлейтті және </span><textEntryInteraction responseIdentifier="EDIT_RESPONSE_4" sourcelistId="defaultSourceListId"/><span> жартастарда өседі.</span>	<feedbacks>
+		<feedback>
+			<condition>
+				<and>
+		<propertyCondition property="ok"/>
+				</and>
+			</condition>
+		<action>
+			<showText/>
+				<showUrl href="media/ok.mp3" type="narration">
+								<source src="media/ok.mp3" type="audio/mp4"/>
+				</showUrl>
+		</action>
+		</feedback>
+		<feedback>
+			<condition>
+				<and>
+		<propertyCondition property="wrong"/>
+				</and>
+			</condition>
+		<action>
+			<showText/>
+				<showUrl href="media/wrong.mp3" type="narration">
+								<source src="media/wrong.mp3" type="audio/mp4"/>
+				</showUrl>
+		</action>
+		</feedback>
+	</feedbacks>
+</textInteraction>
+			<sourceList id="dummy1_3" moveElements="true" shuffle="true" sourcelistId="defaultSourceListId">
+				<simpleSourceListItem alt="бір жарым">бір жарым</simpleSourceListItem>
+				<simpleSourceListItem alt="екі жарым">екі жарым</simpleSourceListItem>
+				<simpleSourceListItem alt="Түйреуіш тәрізді плаун">Түйреуіш тәрізді плаун</simpleSourceListItem>
+				<simpleSourceListItem alt="Жүрек тәрізді плаун">Жүрек тәрізді плаун</simpleSourceListItem>
+				<simpleSourceListItem alt="спора түзбейтін">спора түзбейтін</simpleSourceListItem>
+				<simpleSourceListItem alt="тұқым түзбейтін">тұқым түзбейтін</simpleSourceListItem>
+				<simpleSourceListItem alt="тасты">тасты</simpleSourceListItem>
+				<simpleSourceListItem alt="таулы">таулы</simpleSourceListItem>
+	</sourceList>
+
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		<!-- cannot find module for dummy 'dummy11'!-->
+        <!-- cannot find module for dummy 'dummy12'!-->
+        <!-- cannot find module for dummy 'dummy13'!-->
+		<!-- cannot find module for dummy 'dummy14'!-->
+        <!-- cannot find module for dummy 'dummy15'!-->
+        <!-- cannot find module for dummy 'dummy16'!-->
+		<!-- cannot find module for dummy 'dummy17'!-->
+        <!-- cannot find module for dummy 'dummy18'!-->
+        <!-- cannot find module for dummy 'dummy19'!-->
+		<!-- cannot find module for dummy 'dummy20'!-->
+        <!-- cannot find module for dummy 'dummy21'!-->
+        <!-- cannot find module for dummy 'dummy22'!-->
+		<!-- cannot find module for dummy 'dummy23'!-->
+        <!-- cannot find module for dummy 'dummy24'!-->
+        <!-- cannot find module for dummy 'dummy25'!-->
+	</div>
+	<div id="activityButtons">
+        <markAllButton id="markAnswers"/>
+        <showAnswersButton id="showAnswers"/>
+        <resetButton id="reset"/>
+    </div>
+</group>
+            <!-- cannot find module for dummy 'dummy2'!-->
+            <!-- cannot find module for dummy 'dummy3'!-->
+            <!-- cannot find module for dummy 'dummy4'!-->
+            <!-- cannot find module for dummy 'dummy5'!-->
+            <!-- cannot find module for dummy 'dummy6'!-->
+            <!-- cannot find module for dummy 'dummy7'!-->
+            <!-- cannot find module for dummy 'dummy8'!-->
+            <!-- cannot find module for dummy 'dummy9'!-->
+            <!-- cannot find module for dummy 'dummy10'!-->
+        </div>
+			</itemBody>
+</assessmentItem>

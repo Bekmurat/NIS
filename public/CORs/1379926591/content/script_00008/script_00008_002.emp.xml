@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentItem adaptive="false" compilerVersion="3.3.2.78" identifier="ITEM_002" playerVersion="1.8.0" timeDependent="false" title="Картаның түрлері">
+<styleDeclaration><link href="../common/mcc_lesson.css" userAgent=".*"/><link href="../common/mcc_info_page.css" userAgent=".*"/><link href="../common/default.css" userAgent=".*"/><link href="../common/text.css" userAgent=".*"/><link href="../common/text_bullets.css" userAgent=".*"/></styleDeclaration>
+	<variableProcessing template="default"/>
+		<outcomeDeclaration cardinality="single" identifier="DONE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+		<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+		<outcomeDeclaration cardinality="single" identifier="RESET"/>
+		<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO">
+		<defaultValue>
+			<value>0</value>
+		</defaultValue>
+	</outcomeDeclaration>
+		<itemBody>
+
+			<div class="mcc_info_page">
+				<div class="page_title">
+					<div class="pageicon"/>
+					<div class="pagetitle"><info class="report-custom1-content2"/></div>
+       			</div>
+            <group class="text" id="dummy1">
+	<div id="text">
+		<simpleText id="dummy1_1">
+Картаның масштабы, қамтитын аумақтың көлемімен байланысты. Барлық географиялық карталар, олардың масштабтарына қарай былайша бөлінеді:</simpleText>
+		<group class="text_bullets" id="dummy1_2">
+	<div id="text_bullets">
+		<simpleText id="dummy1_2_1">
+1:1000 000 масштаб ұсақ етіліп жасалған, <i>ұсақ масштабты карталар</i>;</simpleText>
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+		<group class="text_bullets" id="dummy1_3">
+	<div id="text_bullets">
+		<simpleText id="dummy1_3_1">
+1:200 000 - нан 1:1000 000 – ға дейін <i>орта масштабты карталар</i>;</simpleText>
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+		<group class="text_bullets" id="dummy1_4">
+	<div id="text_bullets">
+		<simpleText id="dummy1_4_1">
+1:200 000 - нан бастап, <i>ірі масштабты карталар</i>.</simpleText>
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+            <group class="text" id="dummy2">
+	<div id="text">
+		<simpleText id="dummy2_1">
+Мазмұнына қарай барлық карталар бірнеше топқа бөлінеді:</simpleText>
+		<group class="text_bullets" id="dummy2_2">
+	<div id="text_bullets">
+		<simpleText id="dummy2_2_1">
+<i>Жалпы географиялық карталарда</i> жергілікті жердің негізгі элементтері жер бедері, өзен, көлдер, ең басты елді мекендер, шекаралар, жолдар, саяси әкімшілік және т.б. Осы карталар ұсақ масштабта жасалынады, қамтитын аумағы үлкен болғандықтан өте көп жерлерде қолданылады.</simpleText>
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+		<group class="text_bullets" id="dummy2_3">
+	<div id="text_bullets">
+		<simpleText id="dummy2_3_1">
+<i>Тақырыптық карталарда</i> керісінше, табиғаттың, шаруашылықтың, тұрған халықтың бір немесе екі компонентері бейнеленеді. Мысалы, жер бедері, гидрография, климат, топырақ т.б.</simpleText>
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+		<group class="text_bullets" id="dummy2_4">
+	<div id="text_bullets">
+		<simpleText id="dummy2_4_1">
+<i>Техникалық карталар</i> инженерлік құрылыста, жер асты комуникациясында, жалпы практикалық жағдайда қолданылады.</simpleText>
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+		<group class="text_bullets" id="dummy2_5">
+	<div id="text_bullets">
+		<simpleText id="dummy2_5_1">
+<i>Құжат карталары</i> - халықаралық келісімдер. Мысалы, екі мемлекеттің шекарасы туралы келісім.</simpleText>
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+            <!-- cannot find module for dummy 'dummy3'!-->
+            <!-- cannot find module for dummy 'dummy4'!-->
+            <!-- cannot find module for dummy 'dummy5'!-->
+            <!-- cannot find module for dummy 'dummy6'!-->
+            <!-- cannot find module for dummy 'dummy7'!-->
+            <!-- cannot find module for dummy 'dummy8'!-->
+            <!-- cannot find module for dummy 'dummy9'!-->
+            <!-- cannot find module for dummy 'dummy10'!-->
+        </div>
+			</itemBody>
+</assessmentItem>

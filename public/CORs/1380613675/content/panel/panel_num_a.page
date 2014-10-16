@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page backgroundFeedbacks="false" binaryCheck="false" controlVisibility="false" doneAfterVisit="false" height="600" modal="false" style="../common/styles.lss" width="800">
+  <properties>
+    <property name="textexportversion" type="integer" value="1"/>
+  </properties>
+  <pageInPage height="600" name="Page_in_Page" width="800" x="0" y="0"/>
+  <movie alignment="5" height="100" name="activ_background" src="../common/panel_num_a.swf" width="100" x="0" y="0"/>
+  <simplePageSwitch blockCompletePages="true" height="30" name="Simple page switcher" onAfterLoad="" onBeforeLoad="" onDataReady="" onUnitTimeout="" width="300" x="440" y="37">
+    <switch alignToNextButton="false" alwaysShowScrollers="false" blocked="false" buttonsXSpace="5" buttonsYSpace="5" center="false" height="41" layout="horizontal" nextButtonMargin="0" normalColor="ff000000" overColor="ffff0000" prevButtonMargin="0" selectedColor="ff0000ff" width="300" x="0" y="0">
+      <format bold="false" font="Arial" italic="false" size="0"/>
+      <buttons>
+        <button matchRangeAndPrefix="false" number_op_arg="" ranges="0" src="../common/tab01_basic.swf"/>
+        <button matchRangeAndPrefix="false" number_op_arg="" ranges="1" src="../common/tab02_basic.swf"/>
+        <button matchRangeAndPrefix="false" number_op_arg="" ranges="2" src="../common/tab03_basic.swf"/>
+        <button matchRangeAndPrefix="false" number_op_arg="" ranges="3" src="../common/tab04_basic.swf"/>
+        <button matchRangeAndPrefix="false" number_op_arg="" ranges="4" src="../common/tab05_basic.swf"/>
+        <button matchRangeAndPrefix="false" number_op_arg="" ranges="5" src="../common/tab04_basic.swf"/>
+      </buttons>
+    </switch>
+  </simplePageSwitch>
+  <ac containerId="" enableALLOKafterError="false" height="600" includeerrorsinresult="true" initiallySolved="false" isActive="true" mouseOpaque="false" name="Container" presentationTime="0" rememberBlockade="false" showAttemptedAnswers="false" width="800" x="0" y="0">
+    <resultWindows/>
+    <acfeedbacks>
+      <group condition="ALL_OK" sequence="random"/>
+      <group condition="OK" sequence="random"/>
+      <group condition="WRONG" sequence="random"/>
+      <group condition="HELP" sequence="random"/>
+    </acfeedbacks>
+    <convertResults/>
+    <movie alignment="5" height="100" name="panel_backgound" src="../common/panel_bg.swf" width="100" x="0" y="0"/>
+  </ac>
+</page>

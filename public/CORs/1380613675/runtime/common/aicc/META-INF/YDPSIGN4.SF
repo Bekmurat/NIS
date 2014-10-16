@@ -1,0 +1,139 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 5vjH5XsYrWXzmNh8vokm1qfyGfg=
+Created-By: 1.3.1 (Sun Microsystems Inc.)
+
+Name: pl/ydp/lms/client/objectives/OuterLMS.class
+SHA1-Digest: Wgmm1Te86O7lwQxVT7yZbFhQeC4=
+
+Name: pl/ydp/lms/simple/FcsCompoundLMS1.class
+SHA1-Digest: ebxvy9+TAOQl6PPZ578RaUPx8Qk=
+
+Name: pl/ydp/lms/client/CompoundCMIWrapper.class
+SHA1-Digest: nYzMm7ezXQYgdjdMYlyR7vbkobo=
+
+Name: pl/ydp/lms/client/noa/NOARuntimeAPI.class
+SHA1-Digest: aOpzOQ0Qb1KVF1N31+R2om0pbVQ=
+
+Name: pl/ydp/lms/simple/ScriptableCompoundLMS.class
+SHA1-Digest: Dxq2xjlrkvba7d8clSWjJ9IxJZA=
+
+Name: pl/ydp/lms/simple/CompoundLMS1.class
+SHA1-Digest: nHBPOJX5fbVgUT/2qsCTojOIGWA=
+
+Name: SimpleLMS1.html
+SHA1-Digest: LR3aUE5UyY4LtuAVY9r3Exu24SQ=
+
+Name: pl/ydp/lms/simple/fcs/FCSItemResult.class
+SHA1-Digest: YjJFtAjZbhZBlg0Nrqf1SbimBRc=
+
+Name: pl/ydp/lms/client/aicc/AICCIniSection.class
+SHA1-Digest: 1jhXTZ9SVd97OvB2mzV2SAgSCVM=
+
+Name: pl/ydp/lms/client/aicc/AICCBlockSection.class
+SHA1-Digest: uTcBU+8acgsJsPaPwY44cCLTXAM=
+
+Name: pl/ydp/lms/simple/fcs/FCSEntry.class
+SHA1-Digest: 4vMnDdf6vKjdgHiQd1/x9kKdt/o=
+
+Name: pl/ydp/lms/simple/SystemSecurityProvider$SimpleRunnable.class
+SHA1-Digest: RCVYRjEVyavy3Xtzhi9gks/e4Ow=
+
+Name: pl/ydp/lms/simple/CMISimpleLMS$LoadLessonData.class
+SHA1-Digest: 2Sk6JJ4RN7qysePMl7bdyDIMS9I=
+
+Name: pl/ydp/lms/client/objectives/ObjectiveState.class
+SHA1-Digest: ROX3qyNgDJJELRxzkQzD15FSfI0=
+
+Name: pl/ydp/lms/simple/MSSecurityProvider.class
+SHA1-Digest: P9W9ijKwahBoo0kTFD90VLRmafs=
+
+Name: pl/ydp/lms/client/CMIWrapper.class
+SHA1-Digest: T673RIIUb8ZGVDC2BkjIB0Zi5kU=
+
+Name: pl/ydp/lms/simple/SimpleLMS1$CommitAndExitSender.class
+SHA1-Digest: xFmm9q5GtGgXLIDs+sDEVSO0do0=
+
+Name: pl/ydp/lms/simple/SimpleLMS1.class
+SHA1-Digest: wQDRR3UvQELOqVvLvDJOf5k/FDU=
+
+Name: pl/ydp/lms/client/noa/NOActivity.class
+SHA1-Digest: kyy48TI935rq2U0g8sAjfiUnBL0=
+
+Name: pl/ydp/lms/simple/CMISimpleLMS$SendLessonData.class
+SHA1-Digest: t0OUAnrMueEnlpr69nfR00f3Fus=
+
+Name: pl/ydp/lms/client/SyncLoader.class
+SHA1-Digest: cr47RsMWapG02RNftFCcfPyiQVY=
+
+Name: pl/ydp/lms/common/HttpCodeException.class
+SHA1-Digest: VfxuT9kCSizvcMXiGT2khltt/ks=
+
+Name: pl/ydp/lms/client/objectives/ObjectiveImpl.class
+SHA1-Digest: oKNjOYDuf5M6XIgu0i5AbN5lfYk=
+
+Name: pl/ydp/lms/client/objectives/InnerLMS.class
+SHA1-Digest: 6ux1bYyswjyYZpxZgt7dD0cztCM=
+
+Name: pl/ydp/lms/client/CompoundRuntimeAPI.class
+SHA1-Digest: n5DgfbjXC+rO9Lvq+p03gZJKdn4=
+
+Name: ds/util/EncodeBytesInChars2.class
+SHA1-Digest: ZZ6u0aMa6K8EizpcGnx0TEzXEdI=
+
+Name: pl/ydp/lms/simple/CMISimpleLMS$ExitLesson.class
+SHA1-Digest: zk01gdi/Y/rpt3iq6trJTnIMDSA=
+
+Name: pl/ydp/lms/simple/SystemSecurityProvider.class
+SHA1-Digest: YpJS8FdhsUzQV+CKTWjd5hVx7zM=
+
+Name: ds/url/URLLoader.class
+SHA1-Digest: 6q9/Zu+XazIo4tNnQzAy32YnskE=
+
+Name: pl/ydp/lms/simple/CMICompoundLMS.class
+SHA1-Digest: jhWDfNztKyIYJ60sM50fKKGmXDk=
+
+Name: ds/url/SimpleLoadImpl.class
+SHA1-Digest: uDSjgT5mNck41cjUPTyy1tFSxjI=
+
+Name: pl/ydp/lms/client/AICCLoad.class
+SHA1-Digest: 6dkSM5YY+l7K40HXHn/iMLjQa7E=
+
+Name: pl/ydp/lms/simple/CMIFcsLMS.class
+SHA1-Digest: WjK8BC1nowRePSe6RC6G+TdT2TA=
+
+Name: pl/ydp/lms/client/objectives/ObjectivesSupport.class
+SHA1-Digest: +F2iL+B7KQ6DmgkfmXPLOWpgPkE=
+
+Name: ds/url/Worker.class
+SHA1-Digest: HS05QE4+s3+crjzxhZAtBg+IQPk=
+
+Name: pl/ydp/lms/simple/MSSecurityProvider$MSSecureRunnable.class
+SHA1-Digest: 4mxKmaazx6bJvZ8KUqM9iBWqzFo=
+
+Name: ds/util/EncodeBytesInChars.class
+SHA1-Digest: jVTFyVdNsLtP6Jafc3VzEyIQ00Y=
+
+Name: pl/ydp/lms/client/aicc/AICCPairsSection.class
+SHA1-Digest: FG1TeiTwWlfBFDP4XZ3xsed9xnc=
+
+Name: pl/ydp/lms/client/StringPair.class
+SHA1-Digest: 96E9W5itNaNJi5CkA3XTfwg7krY=
+
+Name: ds/util/String2ASCII.class
+SHA1-Digest: r0GFfcTR30Nj3tTSopRaHtEH5Vc=
+
+Name: pl/ydp/lms/client/RuntimeAPI.class
+SHA1-Digest: POuPqEkqht2Z7Xs65DMX4yrdqRU=
+
+Name: pl/ydp/lms/simple/CMISimpleLMS.class
+SHA1-Digest: xvS8y10HOesWMcU6zP682Q4mFJU=
+
+Name: pl/ydp/lms/client/aicc/AICCIni.class
+SHA1-Digest: dMMwoQph+mQzeq6qCM6g0EdnyuE=
+
+Name: ds/url/Load.class
+SHA1-Digest: SQ3sDQQ3y36WzRndhxfWcMG5gVw=
+
+Name: pl/ydp/lms/simple/ScriptableLMS.class
+SHA1-Digest: DM7e5rYPWK3bqJyY/zMAV0ASLR4=
+

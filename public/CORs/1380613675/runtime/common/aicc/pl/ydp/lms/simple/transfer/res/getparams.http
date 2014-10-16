@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Server: LEO/1.1 (Java)
+Connection: Close
+Content-Type: text/html; charset=utf-8
+
+<html>
+<body>
+<script language=JavaScript>
+<!--
+function dataTransferred() {
+	window.close();
+}
+-->
+</script>
+
+ <EMBED src="getparams.swf"
+ 		loop=false
+ 		menu=false
+ 		salign=lt
+ 		quality=high
+ 		scale=noscale
+ 		bgcolor=#FFFFFF
+ 		WIDTH="10"
+ 		HEIGHT="10"
+ 		swLiveConnect=true
+ 		ID="so"
+ 		NAME="so"
+ 		ALIGN=""
+ 		TYPE="application/x-shockwave-flash"
+ 		PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+
+</body>
+</html>

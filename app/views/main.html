@@ -1,0 +1,178 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <title>#{get 'title' /}</title>		
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>ShopFine: eCommerce Website</title>
+	<meta name="description" content="">
+	<meta name="author" content="Ahmed Saeed">
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="@{'/public/www/css/bootstrap.min.css'}" media="screen">
+	<!-- jquery ui css -->
+	<link rel="stylesheet" href="@{'/public/www/css/jquery-ui-1.10.1.min.css'}">
+	<link rel="stylesheet" href="@{'/public/www/css/customize.css'}">
+	<link rel="stylesheet" href="@{'/public/www/css/font-awesome.css'}">
+	<link rel="stylesheet" href="@{'/public/www/css/style.css'}">
+	<!-- flexslider css-->
+	<link rel="stylesheet" href="@{'/public/www/css/flexslider.css'}">
+	<!-- fancybox -->
+	<link rel="stylesheet" href="@{'/public/www/js/fancybox/jquery.fancybox.css'}">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<link rel="stylesheet" href="css/font-awesome-ie7.css">
+	<![endif]-->
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="${'/public/www/images/favicon.ico'}">
+	<link rel="apple-touch-icon" href="${'/public/www/images/apple-touch-icon.png'}">
+	<link rel="apple-touch-icon" sizes="72x72" href="${'/public/www/images/apple-touch-icon-72x72.png'}">
+	<link rel="apple-touch-icon" sizes="114x114" href="${'/public/www/images/apple-touch-icon-114x114.png'}">
+
+	 <!-- Change URLs to wherever Video.js files will be hosted -->
+	<link rel="stylesheet" type="text/css" media="screen" 
+	  	href="@{'/public/video-js/video-js.css'}">
+
+
+	<!-- JS
+	================================================== -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+	<!-- jQuery.Cookie -->
+	<script src="@{'/public/www/js/jquery.cookie.js'}"></script>
+	<!-- bootstrap -->
+    <script src="@{'/public/www/js/bootstrap.min.js'}"></script>
+    <!-- flexslider -->
+    <script src="@{'/public/www/js/jquery.flexslider-min.js'}"></script>
+    <!-- cycle2 -->
+    <script src="@{'/public/www/js/jquery.cycle2.min.js'}"></script>
+    <script src="@{'/public/www/js/jquery.cycle2.carousel.min.js'}"></script>
+    <!-- tweets -->
+    <script src="@{'/public/www/js/jquery.tweet.js'}"></script>
+    <!-- fancybox -->
+    <script src="@{'/public/www/js/fancybox/jquery.fancybox.js'}"></script>
+    <!-- custom function-->
+    <script src="@{'/public/www/js/custom.js'}"></script>
+
+	<!-- video.js must be in the <head> for older IEs to work. -->
+	<script src="@{'/public/video-js/video.js'}"></script>
+	
+	<!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
+	<script>
+	  videojs.options.flash.swf = "video-js.swf";
+	</script>
+	
+	<!-- Scorm JS -->
+	<!-- 
+	<script type="text/javascript" src="@{'public/scormplayer/Lib/sscompat.js'}"></script> 
+	<script type="text/javascript" src="@{'public/scormplayer/Lib/sscorlib.js'}"></script>  
+	<script type="text/javascript" src="@{'public/scormplayer/Lib/ssfx.Core.js'}"></script> 
+	<script type="text/javascript" src="@{'public/scormplayer/Lib/API_BASE.js'}"></script>    
+	<script type="text/javascript" src="@{'public/scormplayer/Lib/API.js'}"></script>  
+	<script type="text/javascript" src="@{'public/scormplayer/Lib/API_1484_11.js'}"></script>
+	<script type="text/javascript" src="@{'public/scormplayer/Lib/Controls.js'}"></script>        
+	<script type="text/javascript" src="@{'public/scormplayer/Lib/LocalStorage.js'}"></script>
+	<script type="text/javascript" src="@{'public/scormplayer/Lib/Player.js'}"></script>
+ -->
+
+    </head>
+ 		<body>
+		<header>
+			<div id="mainContainer" class="clearfix">
+				<div class="middleHeader">
+					<div class="container">
+						<div class="siteLogo pull-left">
+							<h1><a href="@{Application.index()}">ShopFine</a></h1>
+						</div>
+						
+						#{form @Application.searchByName()}
+						 
+							#{ifErrors}
+							    <p class="error">
+							        ${errors[0]}
+							    </p>
+							#{/ifErrors} 
+		
+							<div class="pull-right">
+								<form method="get" action="page" class="siteSearch">
+									<div class="input-append">
+										<input type="text" class="span2" name="searchKeyword" id="appendedInputButton" placeholder="Search..." value="${params.searchKeyword}" />
+										<button class="btn btn-primary" type="submit" name=""><i class="icon-search"></i></button>
+									</div>
+								</form>
+							</div>
+		
+						#{/form}
+					</div><!--end middleCoontainer-->
+				</div><!--end container-->
+			</div><!--end middleHeader-->
+		
+			<div class="mainNav">
+				<div class="container">
+					<div class="navbar">
+					      	
+				      	<ul class="nav">
+				      		<li class="active"><a href="@{Application.index()}"><i class="icon-home"></i></a></li>
+				      		<li>
+				      			<a href="#">Журналы &nbsp;<i class="icon-caret-down"></i></a>
+				      		</li>
+				      		<li>
+				      			<a href="@{Application.findByCateg(2)}">Учебники &nbsp;<i class="icon-caret-down"></i></a>
+				      			<div>
+					      			<ul>
+					      				<li>
+					      					<a href="@{Application.findByCateg(3)}"> <span>-</span> Биология  &nbsp;<i class="icon-caret-right pull-right"></i></a>
+					      					<div>
+								      			<ul>
+								      				<li>
+								      					<a href="@{Application.findByCateg(4)}"> <span>-</span> 8 класс  &nbsp;<i class="icon-caret-right pull-right"></i></a>
+								      					<div>
+											      			<ul>
+											      				<li><a href="@{Application.findByCateg(5)}"> <span>-</span> Рус</a></li>
+											      				<li><a href="@{Application.findByCateg(6)}"> <span>-</span> Каз</a></li>
+											      				<li><a href="@{Application.findByCateg(7)}"> <span>-</span> Англ</a></li>
+											      			</ul>
+											      		</div>
+								      				</li>
+								      			</ul>
+								      		</div>
+					      				</li>
+					      			</ul>
+					      		</div>
+				      		</li>
+				      		<li><a href="#">Школьные коллекции &nbsp;<i class="icon-caret-down"></i></a></li>
+				      	</ul><!--end nav-->
+					</div>
+				</div><!--end container-->
+			</div><!--end mainNav-->
+		</header>
+		<!-- end header -->
+<!-- From template -->
+
+        <div id="main">
+            #{doLayout /} 
+        </div>
+        
+		<!--begain footer-->
+		<footer>
+			<hr />
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<p>© Copyrights 2012 for shopfine.com</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--end footer-->
+        
+    </body>
+</html>
+

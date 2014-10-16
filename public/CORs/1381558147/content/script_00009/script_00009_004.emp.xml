@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentItem adaptive="false" compilerVersion="3.3.2.78" identifier="ITEM_004" playerVersion="1.8.0" timeDependent="false" title="Теплые и холодные течения">
+<styleDeclaration><link href="../common/mcc_lesson.css" userAgent=".*"/><link href="../common/mcc_media_page.css" userAgent=".*"/><link href="../common/default.css" userAgent=".*"/><link href="../common/table2.css" userAgent=".*"/></styleDeclaration>
+	<variableProcessing template="default"/>
+		<outcomeDeclaration cardinality="single" identifier="DONE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+		<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+		<outcomeDeclaration cardinality="single" identifier="RESET"/>
+		<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO">
+		<defaultValue>
+			<value>0</value>
+		</defaultValue>
+	</outcomeDeclaration>
+		<itemBody>
+
+		<div class="mcc_media_page">
+				<div class="page_title">
+					<div class="pageicon"/>
+					<div class="pagetitle"><info class="report-custom1-content2"/></div>
+       			</div>
+            <group class="table2" id="dummy1">
+	<div id="table2">
+		<table id="dummy1_1">
+	<tr>
+		<td>
+
+<simpleText class="col_title" id="dummy1_1_x0y0">
+Течения</simpleText>		</td>
+		<td>
+
+<simpleText class="col_title" id="dummy1_1_x1y0">
+Расположение</simpleText>		</td>
+		<td>
+
+<simpleText class="col_title" id="dummy1_1_x2y0">
+Теплое/Холодное</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Агульясское течение</simpleText>		</td>
+		<td>
+<simpleText>Индийский океан</simpleText>		</td>
+		<td>
+<simpleText>Теплое</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Аляскинское течение</simpleText>		</td>
+		<td>
+<simpleText>Северная часть Тихого океана</simpleText>		</td>
+		<td>
+<simpleText>Теплое</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Бенгельское течение</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Атлантического океана</simpleText>		</td>
+		<td>
+<simpleText>Теплое/Холодное</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Бразильское течение</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Атлантического океана</simpleText>		</td>
+		<td>
+<simpleText>Теплое</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Калифорнийское течение</simpleText>		</td>
+		<td>
+<simpleText>Северная часть Тихого океана</simpleText>		</td>
+		<td>
+<simpleText>Холодное</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Канарское течение</simpleText>		</td>
+		<td>
+<simpleText>Северная часть Атлантического океана</simpleText>		</td>
+		<td>
+<simpleText>Холодное</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Восточно-Австралийское течение</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Тихого океана</simpleText>		</td>
+		<td>
+<simpleText>Теплое</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Экваториальное течение</simpleText>		</td>
+		<td>
+<simpleText>Тихий океан</simpleText>		</td>
+		<td>
+<simpleText>Теплое</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Гольфстрим</simpleText>		</td>
+		<td>
+<simpleText>Северная часть Атлантического океана</simpleText>		</td>
+		<td>
+<simpleText>Теплое</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Течение Гумбольдта (Перуанское)</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Тихого океана</simpleText>		</td>
+		<td>
+<simpleText>Холодное</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Течение Куросио (Япония)</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Тихого океана</simpleText>		</td>
+		<td>
+<simpleText>Теплое</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Лабрадорское течение</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Атлантического океана</simpleText>		</td>
+		<td>
+<simpleText>Холодное</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Североатлантический дрейф</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Атлантического океана</simpleText>		</td>
+		<td>
+<simpleText>Теплое</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Северотихоокеанское течение</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Тихого океана</simpleText>		</td>
+		<td>
+<simpleText>Теплое</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Течение Оясио (Камчатка)</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Тихого океана</simpleText>		</td>
+		<td>
+<simpleText>Холодное</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Западно-Австралийское течение</simpleText>		</td>
+		<td>
+<simpleText>Индийский океан</simpleText>		</td>
+		<td>
+<simpleText>Холодное</simpleText>		</td>
+	</tr>
+	<tr>
+		<td>
+<simpleText>Антарктическое циркумполярное течение</simpleText>		</td>
+		<td>
+<simpleText>Южная часть Тихого океана</simpleText>		</td>
+		<td>
+<simpleText>Холодное</simpleText>		</td>
+	</tr>
+</table>
+
+		<!-- cannot find module for dummy 'dummy2'!-->
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		</div>
+</group>
+            <!-- cannot find module for dummy 'dummy2'!-->
+            <!-- cannot find module for dummy 'dummy3'!-->
+            <!-- cannot find module for dummy 'dummy4'!-->
+            <!-- cannot find module for dummy 'dummy5'!-->
+            <!-- cannot find module for dummy 'dummy6'!-->
+            <!-- cannot find module for dummy 'dummy7'!-->
+            <!-- cannot find module for dummy 'dummy8'!-->
+            <!-- cannot find module for dummy 'dummy9'!-->
+            <!-- cannot find module for dummy 'dummy10'!-->
+        </div>
+			</itemBody>
+</assessmentItem>

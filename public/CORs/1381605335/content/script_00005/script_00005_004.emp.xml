@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentItem adaptive="false" compilerVersion="3.3.2.78" identifier="ITEM_004" playerVersion="1.8.0" timeDependent="false" title="2-тапсырма">
+<styleDeclaration><link href="../common/mcc_lesson.css" userAgent=".*"/><link href="../common/mcc_activity_page.css" userAgent=".*"/><link href="../common/default.css" userAgent=".*"/><link href="../common/exer.css" userAgent=".*"/></styleDeclaration>
+	<variableProcessing template="default"/>
+		<outcomeDeclaration cardinality="single" identifier="DONE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+		<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+		<outcomeDeclaration cardinality="single" identifier="RESET"/>
+		<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO">
+		<defaultValue>
+			<value>6</value>
+		</defaultValue>
+	</outcomeDeclaration>
+
+		<outcomeDeclaration cardinality="single" identifier="CONNECTION_RESPONSE_1-DONE"/>
+		<outcomeDeclaration cardinality="single" identifier="CONNECTION_RESPONSE_1-TODO"/>
+		<outcomeDeclaration cardinality="multiple" identifier="CONNECTION_RESPONSE_1-LASTCHANGE"/>
+		<outcomeDeclaration cardinality="multiple" identifier="CONNECTION_RESPONSE_1-PREVIOUS"/>
+		<outcomeDeclaration cardinality="single" identifier="CONNECTION_RESPONSE_1-LASTMISTAKEN"/>
+		<outcomeDeclaration cardinality="multiple" identifier="CONNECTION_RESPONSE_1-DONEHISTORY"/>
+		<outcomeDeclaration cardinality="multiple" identifier="CONNECTION_RESPONSE_1-DONECHANGES"/>
+		<outcomeDeclaration cardinality="single" identifier="CONNECTION_RESPONSE_1-MISTAKES"/>
+				<responseDeclaration cardinality="multiple" checkMode="default" countMode="single" evaluate="user" identifier="CONNECTION_RESPONSE_1">
+					<correctResponse>
+						<value>CONNECTION_RESPONSE_1_0 CONNECTION_RESPONSE_1_1</value>
+						<value>CONNECTION_RESPONSE_1_3 CONNECTION_RESPONSE_1_4</value>
+						<value>CONNECTION_RESPONSE_1_6 CONNECTION_RESPONSE_1_7</value>
+						<value>CONNECTION_RESPONSE_1_9 CONNECTION_RESPONSE_1_10</value>
+						<value>CONNECTION_RESPONSE_1_12 CONNECTION_RESPONSE_1_13</value>
+						<value>CONNECTION_RESPONSE_1_15 CONNECTION_RESPONSE_1_16</value>
+					</correctResponse>
+				</responseDeclaration>
+		<itemBody>
+
+		<div class="mcc_activity_page">
+				<div class="page_title">
+					<div class="pageicon"/>
+					<div class="pagetitle"><info class="report-custom1-content2"/></div>
+       			</div>			
+            <group class="exer" id="dummy1">
+	<div id="activities">
+		<simpleText class="title" id="dummy1_1">
+Сөйлемдердің жалғасын табыңыз.</simpleText>
+		<matchInteraction id="dummy1_2" responseIdentifier="CONNECTION_RESPONSE_1" shuffle="true">
+	<simpleMatchSet>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_0" matchMax="6">
+Аш ішек   
+<br/>
+ 
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_3" matchMax="6">
+Бүрлер дегеніміз -
+<br/>
+ 
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_6" matchMax="6">
+Әрбір бүрдің
+<br/>
+ 
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_9" matchMax="6">
+Бүрлер 
+<br/>
+ 
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_12" matchMax="6">
+Әр бүрде
+<br/>
+ 
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_15" matchMax="6">
+Аш ішектің  
+<br/>
+ 	</simpleAssociableChoice>
+	</simpleMatchSet>
+	<simpleMatchSet>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_4" matchMax="6">
+саусақ тәріздес өсінділер.
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_10" matchMax="6">
+аш ішектің ішкі ауданын кеңейтеді. 
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_13" matchMax="6">
+қан тамырлары бар.
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_1" matchMax="6">
+қоректің сіңірілу үдерісі жүретін ас қорыту жолының бөлігі. 
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_16" matchMax="6">
+ішкі ауданының кеңдігі астың тиімді сіңірілуін қамтамасыз етеді. 
+<br/>
+ 	</simpleAssociableChoice>
+	<simpleAssociableChoice fixed="false" identifier="CONNECTION_RESPONSE_1_7" matchMax="6">
+қорек молекулалары өтетін сыртқы жұқа қабырғасы болады.  
+<br/>
+ 	</simpleAssociableChoice>
+	</simpleMatchSet>
+	<feedbacks>
+		<feedback>
+			<condition>
+				<and>
+		<propertyCondition property="ok"/>
+				</and>
+			</condition>
+		<action>
+			<showText/>
+				<showUrl href="media/onOk.mp3" type="narration">
+								<source src="media/onOk.mp3" type="audio/mp4"/>
+				</showUrl>
+		</action>
+		</feedback>
+		<feedback>
+			<condition>
+				<and>
+		<propertyCondition property="wrong"/>
+				</and>
+			</condition>
+		<action>
+			<showText/>
+				<showUrl href="media/onWrong.mp3" type="narration">
+								<source src="media/onWrong.mp3" type="audio/mp4"/>
+				</showUrl>
+		</action>
+		</feedback>
+	</feedbacks>
+</matchInteraction>
+
+
+		<!-- cannot find module for dummy 'dummy3'!-->
+		<!-- cannot find module for dummy 'dummy4'!-->
+		<!-- cannot find module for dummy 'dummy5'!-->
+		<!-- cannot find module for dummy 'dummy6'!-->
+		<!-- cannot find module for dummy 'dummy7'!-->
+		<!-- cannot find module for dummy 'dummy8'!-->
+		<!-- cannot find module for dummy 'dummy9'!-->
+		<!-- cannot find module for dummy 'dummy10'!-->
+		<!-- cannot find module for dummy 'dummy11'!-->
+        <!-- cannot find module for dummy 'dummy12'!-->
+        <!-- cannot find module for dummy 'dummy13'!-->
+		<!-- cannot find module for dummy 'dummy14'!-->
+        <!-- cannot find module for dummy 'dummy15'!-->
+        <!-- cannot find module for dummy 'dummy16'!-->
+		<!-- cannot find module for dummy 'dummy17'!-->
+        <!-- cannot find module for dummy 'dummy18'!-->
+        <!-- cannot find module for dummy 'dummy19'!-->
+		<!-- cannot find module for dummy 'dummy20'!-->
+        <!-- cannot find module for dummy 'dummy21'!-->
+        <!-- cannot find module for dummy 'dummy22'!-->
+		<!-- cannot find module for dummy 'dummy23'!-->
+        <!-- cannot find module for dummy 'dummy24'!-->
+        <!-- cannot find module for dummy 'dummy25'!-->
+	</div>
+	<div id="activityButtons">
+        <markAllButton id="markAnswers"/>
+        <showAnswersButton id="showAnswers"/>
+        <resetButton id="reset"/>
+    </div>
+</group>
+            <!-- cannot find module for dummy 'dummy2'!-->
+            <!-- cannot find module for dummy 'dummy3'!-->
+            <!-- cannot find module for dummy 'dummy4'!-->
+            <!-- cannot find module for dummy 'dummy5'!-->
+            <!-- cannot find module for dummy 'dummy6'!-->
+            <!-- cannot find module for dummy 'dummy7'!-->
+            <!-- cannot find module for dummy 'dummy8'!-->
+            <!-- cannot find module for dummy 'dummy9'!-->
+            <!-- cannot find module for dummy 'dummy10'!-->
+        </div>
+			</itemBody>
+</assessmentItem>

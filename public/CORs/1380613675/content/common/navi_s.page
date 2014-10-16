@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page width="800" height="600" startup="" modal="false" controlVisibility="false" binaryCheck="false" doneAfterVisit="false" backgroundFeedbacks="false">
+  <properties>
+    <property name="textexportversion" type="integer" value="1"/>
+  </properties>
+  <tooltipDecoration shadowDisplacement="5" textColor="ff000000">
+    <solidFill color="ffffffff"/>
+    <border borderType="single" borderColor="0" borderThickness="1" borderLeftMargin="3" borderTopMargin="0" borderRightMargin="3" borderBottomMargin="0"/>
+  </tooltipDecoration>
+  <simplePageSwitch name="Simple page switcher" x="0" y="0" width="800" height="570" onDataReady="" onUnitTimeout="" onBeforeLoad="" onAfterLoad="">
+    <switch x="136" y="485" width="530" height="29" alignToNextButton="false" prevButtonMargin="0" nextButtonMargin="0" alwaysShowScrollers="false" blocked="true" src="" markedSrc="-" layout="horizontal" normalColor="ff000000" selectedColor="ff0000ff" overColor="ffff0000" buttonsXSpace="0" buttonsYSpace="5" center="true">
+      <format font="Arial" size="10" bold="false" italic="false"/>
+      <buttons>
+        <button src="pgnr_nf1.swf" ranges="0" number_op_arg="" matchRangeAndPrefix="false" number_op="hide"/>
+        <button src="pgnr_f1.swf" ranges="1" number_op_arg="" matchRangeAndPrefix="false" number_op="hide"/>
+        <button src="pgnr_f2.swf" ranges="2-99" number_op_arg="" matchRangeAndPrefix="false" number_op="hide"/>
+      </buttons>
+    </switch>
+  </simplePageSwitch>
+  <pageInPage name="Page_in_Page" x="100" y="100" width="600" height="450" src="-"/>
+</page>

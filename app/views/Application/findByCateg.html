@@ -1,0 +1,52 @@
+#{extends 'main.html' /}
+#{set title:'Resources' /}
+
+#{if myResources.size()}
+
+	<div id="mainContainer" class="clearfix">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="span12">
+					<div id="featuredItems">
+						<!-- <div class="span12"> -->
+						<div class="titleHeader clearfix">
+							<h3>Resources</h3>
+<!-- 							<div class="pagers">
+								<div class="btn-toolbar">
+									<button class="btn btn-mini">View All</button>
+								</div>
+							</div>   -->
+						</div><!--end titleHeader-->
+						<!-- </div> -->
+
+						<div class="row">
+							<ul class="hProductItems clearfix">
+						        #{list items:myResources, as:'res'}
+									<li class="span3 clearfix">
+							            #{display resource:res /}
+									</li>
+						        #{/list}
+							</ul>
+						</div><!--end row-->
+					</div><!--end featuredItems-->
+				</div><!--end span12-->
+
+			</div><!--end row-->
+
+		</div><!--end conatiner-->
+
+	</div><!--end mainContainer-->
+	
+#{/if}
+    
+#{else}
+    <div class="empty">
+        There is currently no resource here.
+    </div>
+#{/else}
+
+	
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><assessmentTest compilerVersion="3.3.2.78" identifer="№3938. Қырыққұлақтар" playerVersion="1.8.0" title="№3938. Қырыққұлақтар">
+		<testView href="common/mcc_lesson.emp.xml"/>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+	<general>
+		<keyword><string>Қырықжапырақ</string></keyword>
+		<keyword><string>қырықбуын</string></keyword>
+		<keyword><string>плаун</string></keyword>
+		<keyword><string>жапырақ</string></keyword>
+		<keyword><string>сабақ</string></keyword>
+		<keyword><string>тамыр</string></keyword>
+		<title><string>№3938. Қырыққұлақтар</string></title>
+	</general>
+	<educational>
+		<description><string>Бұл сабақта сіздер:
+1.	Қырықжапырақтәрізділердің  алуан түрлілігімен танысасыздар
+2.	Құрлық өсімдіктерінің маңызы туралы білесіздер
+3.	Қырықжапырақтәрізділердің  түрлеріне сипаттама бересіздер
+4.	Тас көмір кезеңінде қырықжапырақтардың қалай көмір түзуге көмектескенін көресіздер</string></description>
+	</educational>
+</lom>
+	<styleDeclaration>
+		<link href="common/mcc_lesson.css" userAgent=".*"/>
+	<link href="common/default.css" userAgent=".*"/></styleDeclaration>
+	<variableProcessing template="default"/>
+
+	<outcomeDeclaration cardinality="single" identifier="DONE"/>
+	<outcomeDeclaration cardinality="single" identifier="TODO"/>
+	<outcomeDeclaration cardinality="single" identifier="CHECKS"/>
+	<outcomeDeclaration cardinality="single" identifier="SHOW_ANSWERS"/>
+	<outcomeDeclaration cardinality="single" identifier="RESET"/>
+	<outcomeDeclaration cardinality="single" identifier="MISTAKES"/>
+
+	<testPart>
+		<assessmentSection>
+			<assessmentItemRef class="mcc_toc_page" href="script_00003/script_00003_000.emp.xml" identifier="ITEM_000"/>
+			<assessmentItemRef class="mcc_info_page" href="script_00003/script_00003_001.emp.xml" identifier="ITEM_001"/>
+			<assessmentItemRef class="mcc_media_page" href="script_00003/script_00003_002.emp.xml" identifier="ITEM_002"/>
+			<assessmentItemRef class="mcc_activity_page" href="script_00003/script_00003_003.emp.xml" identifier="ITEM_003"/>
+			<assessmentItemRef class="mcc_info_page" href="script_00003/script_00003_004.emp.xml" identifier="ITEM_004"/>
+			<assessmentItemRef class="mcc_media_page" href="script_00003/script_00003_005.emp.xml" identifier="ITEM_005"/>
+			<assessmentItemRef class="mcc_media_page" href="script_00003/script_00003_006.emp.xml" identifier="ITEM_006"/>
+			<assessmentItemRef class="mcc_media_page" href="script_00003/script_00003_007.emp.xml" identifier="ITEM_007"/>
+			<assessmentItemRef class="mcc_activity_page" href="script_00003/script_00003_008.emp.xml" identifier="ITEM_008"/>
+			<assessmentItemRef class="mcc_media_page" href="script_00003/script_00003_009.emp.xml" identifier="ITEM_009"/>
+			<assessmentItemRef class="mcc_activity_page" href="script_00003/script_00003_010.emp.xml" identifier="ITEM_010"/>
+			<assessmentItemRef class="mcc_test_page" href="script_00003/script_00003_011.emp.xml" identifier="ITEM_011"/>
+			<assessmentItemRef class="mcc_report_page" href="script_00003/script_00003_012.emp.xml" identifier="ITEM_012"/>
+		</assessmentSection>
+	</testPart>
+</assessmentTest>

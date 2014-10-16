@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<manifest identifier="YDP-388072ceb29c51750" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" version="1.2">
+   <metadata>
+      <schema>ADL SCORM</schema>
+      <schemaversion>1.2</schemaversion>
+      <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1">
+         <general>
+            <title>
+               <langstring>4-7</langstring>
+            </title>
+            <description>
+               <langstring>Nicole and Tommy Vocabulary for Children (English) is an engaging and colourful interactive program that teaches basic vocabulary to children from 4 to 7 years old. It is also available in American English, Spanish and German. The interactive material is accompanied by an Activity Book, especially designed as an attractive addition to the course. What&#39;s more, there are tips and advice for parents on how to help their children use the course.</langstring>
+            </description>
+         </general>
+      </lom>
+   </metadata>
+   <organizations default="toc0">
+      <organization identifier="toc0">
+         <title>4-7</title>
+         <item identifier="I_sec_b1">
+            <title>4-7</title>
+            <item identifier="I_sco_a7" identifierref="sco_a7">
+               <title>Что мы знаем о времени и работе?</title>
+            </item>
+         </item>
+      </organization>
+   </organizations>
+   <resources>
+      <resource identifier="sco_a7" type="webcontent" adlcp:scormtype="sco" href="proxy/scorm/1460.html">
+         <file href="content/1460.flo" />
+      </resource>
+   </resources>
+</manifest>

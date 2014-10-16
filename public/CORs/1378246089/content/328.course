@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<course xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.ydp.pl/cms/course" id="toc328">
+   <name>Биология</name>
+   <desc></desc>
+   <cs name="328.course" xlink:href="328.cs"/>
+</course>
