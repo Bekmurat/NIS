@@ -147,7 +147,7 @@ iframe {
 
 /*====== mainContainer ======*/
 #mainContainer {
-	padding: 20px;
+	padding: 20px 0;
 	width:100%;
 	display: block;
 	margin:0 auto;
@@ -205,11 +205,15 @@ header {
 		margin-top:-10px;
 	}
 	.middleHeader .siteLogo a {
-		width:150px;
-		height:54px;
+		width:214px;
 		display: block;
 		font:0/0 a;
-		background:url('../img/logo.png') no-repeat left top;
+/*
+				width:150px;
+        		height:54px;
+        		display: block;
+        		font:0/0 a;
+background:url('../img/logo.png') no-repeat left top;*/
 	}
 /* search */
 	.middleHeader .siteSearch {
