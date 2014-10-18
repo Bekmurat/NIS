@@ -63,11 +63,28 @@
 
 	<!-- video.js must be in the <head> for older IEs to work. -->
 	<script src="@{'/public/video-js/video.js'}"></script>
-	
+
+    <script>
+        $(document).ready(function(){
+        });
+    </script>
 	<!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
 	<script>
 	  videojs.options.flash.swf = "video-js.swf";
 	</script>
+
+    <style type="text/css" >
+
+        .input-append, .input-prepend {
+            margin-top: 15px;
+        }
+        #appendedInputButton{
+            width:400px;
+        }
+        #search-panel{
+            padding-right:40px;
+        }
+    </style>
 	
 	<!-- Scorm JS -->
 	<!-- 
@@ -89,7 +106,7 @@
 				<div class="middleHeader">
 					<div class="container">
 						<div class="siteLogo pull-left">
-							<h1><a href="@{Application.index()}">ShopFine</a></h1>
+							<h1><a href="@{Application.index()}"><img class="logo" src="@{'/public/images/nis.jpg'}"></a></h1>
 						</div>
 						
 						#{form @Application.searchByName()}
@@ -101,14 +118,23 @@
 							#{/ifErrors} 
 		
 							<div class="pull-right">
+							<!--<div id="search-panel">-->
 								<form method="get" action="page" class="siteSearch">
 									<div class="input-append">
-										<input type="text" class="span2" name="searchKeyword" id="appendedInputButton" placeholder="Search..." value="${params.searchKeyword}" />
-										<button class="btn btn-primary" type="submit" name=""><i class="icon-search"></i></button>
+										<input type="text" class="span2" name="searchKeyword" id="appendedInputButton" placeholder="Например:Литература 7 класс" value="${params.searchKeyword}" />
+										<button class="btn btn-primary" type="submit" name="">Поиск</button>
 									</div>
 								</form>
+                                <!--<form method="get" action="page">-->
+                                    <!--<div class="input-group">-->
+                                        <!--<input type="text" class="form-control" name="searchKeyword" placeholder="Например:Литература 7 класс" value="${params.searchKeyword}" />-->
+                                        <!--<span class="input-group-btn">-->
+    										<!--<button class="btn btn-primary" type="submit">Поиск</button>-->
+                                        <!--</span>-->
+                                    <!--</div>-->
+                                <!--</form>-->
 							</div>
-		
+
 						#{/form}
 					</div><!--end middleCoontainer-->
 				</div><!--end container-->
@@ -116,39 +142,11 @@
 		
 			<div class="mainNav">
 				<div class="container">
-					<div class="navbar">
-					      	
-				      	<ul class="nav">
-				      		<li class="active"><a href="@{Application.index()}"><i class="icon-home"></i></a></li>
-				      		<li>
-				      			<a href="#">Журналы &nbsp;<i class="icon-caret-down"></i></a>
-				      		</li>
-				      		<li>
-				      			<a href="@{Application.findByCateg(2)}">Учебники &nbsp;<i class="icon-caret-down"></i></a>
-				      			<div>
-					      			<ul>
-					      				<li>
-					      					<a href="@{Application.findByCateg(3)}"> <span>-</span> Биология  &nbsp;<i class="icon-caret-right pull-right"></i></a>
-					      					<div>
-								      			<ul>
-								      				<li>
-								      					<a href="@{Application.findByCateg(4)}"> <span>-</span> 8 класс  &nbsp;<i class="icon-caret-right pull-right"></i></a>
-								      					<div>
-											      			<ul>
-											      				<li><a href="@{Application.findByCateg(5)}"> <span>-</span> Рус</a></li>
-											      				<li><a href="@{Application.findByCateg(6)}"> <span>-</span> Каз</a></li>
-											      				<li><a href="@{Application.findByCateg(7)}"> <span>-</span> Англ</a></li>
-											      			</ul>
-											      		</div>
-								      				</li>
-								      			</ul>
-								      		</div>
-					      				</li>
-					      			</ul>
-					      		</div>
-				      		</li>
-				      		<li><a href="#">Школьные коллекции &nbsp;<i class="icon-caret-down"></i></a></li>
-				      	</ul><!--end nav-->
+					<div class="navbar" id="top-level-menu">
+                        <ul class="nav">
+                            <li class="active"><a href="@{Application.findByCateg(2)}"><i class="icon-home"></i></a></li>
+                            ${menu.raw()}
+                        </ul>
 					</div>
 				</div><!--end container-->
 			</div><!--end mainNav-->
@@ -157,7 +155,11 @@
 <!-- From template -->
 
         <div id="main">
-            #{doLayout /} 
+            <div id="mainContainer" class="clearfix">
+                <div class="container">
+                    #{doLayout /}
+                </div><!--end conatiner-->
+            </div><!--end mainContainer-->
         </div>
         
 		<!--begain footer-->
@@ -166,7 +168,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12">
-						<p>© Copyrights 2012 for shopfine.com</p>
+						<p>nis.edu.kz</p>
 					</div>
 				</div>
 			</div>
