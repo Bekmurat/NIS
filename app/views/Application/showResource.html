@@ -17,29 +17,29 @@
 									    </p>
 									#{/ifErrors} 
 									<div class="control-group">
-									    <label class="control-label" for="inputName">Your Name <span class="text-error">*</span></label>
+									    <label class="control-label" for="inputName">Ваше имя<span class="text-error">*</span></label>
 									    <div class="controls">
-									      <input type="text" name="author" id="inputName" placeholder="Enter Name..." value="${params.author}">
+									      <input type="text" name="author" id="inputName" placeholder="Введите имя..." value="${params.author}">
 									    </div>
 									</div>
 									<div class="control-group">
-										<label class="control-label" for="inputReview">Your Comment <span class="text-error">*</span></label>
+										<label class="control-label" for="inputReview">Комментарий<span class="text-error">*</span></label>
 									    <div class="controls">
-									      <textarea name="content" id="inputReview" placeholder="Put your comment here...">${params.content}</textarea>
+									      <textarea name="content" id="inputReview" placeholder="Оставьте комментарий здесь...">${params.content}</textarea>
 									    </div>
 									</div>
 									
 									<div class="control-group">
-									    <label class="control-label" for="code">Please type the code below: <span class="text-error">*</span></label>
+									    <label class="control-label" for="code">Введите код: <span class="text-error">*</span></label>
 									    <div class="controls">
 									    	<img src="@{Application.captcha(randomID)}" /> <br />
-									      <input type="text" name="code" id="inputName" placeholder="Enter Code..." value="">
+									      <input type="text" name="code" id="inputName" placeholder="Введите код..." value="">
 									      <input type="hidden" name="randomID" value="${randomID}" />
 									    </div>
 									</div>
 									<div class="control-group">
 									    <div class="controls">
-									      <button type="submit" class="btn btn-primary" name="submit">Add Comment</button>
+									      <button type="submit" class="btn btn-primary" name="submit">Отправить</button>
 									    </div>
 									</div>
 								#{/form}

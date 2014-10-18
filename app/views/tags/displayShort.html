@@ -1,0 +1,22 @@
+
+<div class="thumbnail">
+	<a href=""><img src="@{'/public/CORs'}/${_resource.fileName}/../poster.png" width="210px;" height="230px;"/></a>
+</div>
+<div class="thumbSetting">
+	<div class="thumbTitle">
+        <a class="invarseColor" href="@{Application.showResource(_resource.id, true)}">${_resource.title}</a>
+	</div>
+<!-- 	<div class="thumbPrice">
+        <span>Author: ${_resource.author}</span><br />
+        <span>Upload date: ${_resource.uploadDate.format('dd MMM yy')}</span><br />
+        <span>Type: ${_resource.contentType}</span><br />
+        <span>Viewed: ${_resource.viewed}</span><br />
+		<div id='${_resource.id}stars'></div> <span id="rate" style="margin-top: 5px;">(${_resource.rating})</span>
+	</div>
+ --></div>
+ 
+<script type="text/javascript" charset="utf-8">
+	generate_static_stars(${_resource.id}, ${_resource.rating}, 5, "${_resource.id}stars");
+</script>
+
+ 
