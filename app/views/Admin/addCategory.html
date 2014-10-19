@@ -1,0 +1,44 @@
+					<div class="product-tab">
+						<div class="tab-pane" id="make-review">
+							<div class="form-horizontal">
+								#{form @Admin.addCategory()}
+									#{ifErrors}
+									    <p class="error">
+									        ${errors[0]}
+									    </p>
+									#{/ifErrors} 
+									<div class="control-group">
+									    <label class="control-label" for="inputName">Id <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <input type="text" name="id" id="inputName" placeholder="Enter Id..." value="${params.id}">
+									    </div>
+									</div>
+									<div class="control-group">
+										<label class="control-label" for="inputReview">Name <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <input type="text" name="name" id="inputReview" placeholder="Enter Category..." value="${params.name}">
+									    </div>
+									</div>
+									<div class="control-group">
+									    <label class="control-label" for="inputName">Parent Id <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <input type="text" name="parentId" id="inputName" placeholder="Enter Id..." value="${params.parentId}">
+									    </div>
+									</div>
+									<div class="control-group">
+									    <label class="control-label" for="inputName">Level Id <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <input type="text" name="levelId" id="inputName" placeholder="Enter Id..." value="${params.levelId}">
+									    </div>
+									</div>
+									
+									<div class="control-group">
+									    <div class="controls">
+									      <button type="submit" class="btn btn-primary" name="submit">Add Category</button>
+									    </div>
+									</div>
+								#{/form}
+							</div>
+						</div>
+					</div>
+

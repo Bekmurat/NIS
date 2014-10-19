@@ -3,7 +3,8 @@
 # ~~~~
 
 # Import CRUD routes
-*     	/admin           						module:crud
+#*     	/admin           						module:crud
+GET     /admin									Admin.admin
 
 # Import Secure routes
 *       /                                       module:secure

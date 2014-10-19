@@ -20,7 +20,6 @@ public class Category extends GenericModel {
 	@Column(name="NAME_")
 	public String name;
 	
-	@Required
 	@Column(name="PARENT_ID_")
 	public Long parentId;
 
@@ -33,6 +32,13 @@ public class Category extends GenericModel {
 
 	@ManyToMany(mappedBy="categories")
 	public List<Resource> resources = new ArrayList<Resource>();
+	
+	public Category(Long id, String name, Long parentId, Long levelId){
+		this.id = id;
+		this.name = name;
+		this.parentId = parentId;
+		this.levelId = levelId;
+	}
 	
 	public String toString() {
 	    return id + " - " + name;

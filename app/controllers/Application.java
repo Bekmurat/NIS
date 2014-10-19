@@ -6,6 +6,7 @@ import java.util.List;
 
 import models.Category;
 import models.Comment;
+import models.Language;
 import models.Resource;
 import play.cache.Cache;
 import play.data.validation.Required;
@@ -16,8 +17,8 @@ import play.mvc.Controller;
 public class Application extends Controller {
 
 	public static void index() {
-        List<Category> categories = Category.find("order by parent_id_").fetch();
-        render(categories);
+        List<Resource> resources = Resource.findAll();
+        render(resources);
     }
 	
     public static void findByCateg(Long categoryId) {
@@ -68,7 +69,7 @@ public class Application extends Controller {
         Cache.delete(randomID);
         showResource(resourceId, false);
     }
-    
+
     public static void removeResComment(Long resourceId, Long commentId){
     	Comment.delete("id", commentId);
     	showResource(resourceId, false);
@@ -106,4 +107,5 @@ public class Application extends Controller {
     	Resource resource = Resource.findById(resId);
     	render(resource);
     }
+    
 }

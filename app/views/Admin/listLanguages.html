@@ -1,0 +1,16 @@
+
+<table>
+	#{list items:languages, as:'language'}
+    <tr>
+    	<td>
+        	${language.id} - ${language.languageName}
+        </td>
+        <td>
+			<a href="@{Admin.editLanguage(language.id)}">Edit</a>
+			<a href="@{Admin.deleteLanguage(language.id)}">Delete</a>
+        </td>
+	</tr>
+	#{/list}
+</table>
+
+			<a href="@{Admin.addLanguage()}">add</a>

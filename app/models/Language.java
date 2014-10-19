@@ -22,7 +22,12 @@ public class Language extends GenericModel {
 
 	@ManyToMany(mappedBy="languages")
 	public List<Resource> resources = new ArrayList<Resource>();
-
+	
+    public Language(Long id, String languageName) {
+    	this.id = id;
+    	this.languageName = languageName;
+    }
+ 
 	public String toString() {
 	    return id + " - " + languageName;
 	}

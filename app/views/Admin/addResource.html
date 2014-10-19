@@ -1,0 +1,83 @@
+					<div class="product-tab">
+						<div class="tab-pane" id="make-review">
+							<div class="form-horizontal">
+								#{form @Admin.addResource(), enctype:'multipart/form-data'}
+									#{ifErrors}
+									    <p class="error">
+									        ${errors[0]}
+									    </p>
+									#{/ifErrors} 
+									<div class="control-group">
+										<label class="control-label" for="inputReview">Title <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <input type="text" name="title" id="inputReview" placeholder="Enter Title" value="${params.title}">
+									    </div>
+									</div>
+									
+									<div class="control-group">
+										<label class="control-label" for="inputReview">Keywords <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <input type="text" name="keywords" id="inputReview" placeholder="Enter Keywords" value="${params.keywords}">
+									    </div>
+									</div>
+									
+									<div class="control-group">
+										<label class="control-label" for="inputReview">Author <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <input type="text" name="author" id="inputReview" placeholder="Enter Author" value="${params.author}">
+									    </div>
+									</div>
+									
+									<div class="control-group">
+										<label class="control-label" for="inputReview">Description <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <textarea name="description" id="inputReview" placeholder="Enter Description" value="${params.description}"></textarea>
+									    </div>
+									</div>
+									
+									<div class="control-group">
+										<label class="control-label" for="inputReview">Content Type <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <input type="text" name="contentType" id="inputReview" placeholder="Enter contentType" value="${params.contentType}">
+									    </div>
+									</div>
+									
+									<div class="control-group">
+										<label class="control-label" for="inputReview">Category <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <select name="categoryId" id="inputReview" value="${params.categoryId}">
+											#{list items:categories, as:'category'}
+												<option value="${category.id}">
+													${category.id} - ${category.name}
+												</option>
+											#{/list}
+									      </select>
+									    </div>
+									</div>
+									
+									<div class="control-group">
+										<label class="control-label" for="inputReview">Language <span class="text-error">*</span></label>
+									    <div class="controls">
+									      <select name="languageId" id="inputReview" value="${params.languageId}">
+											#{list items:languages, as:'language'}
+												<option value="${language.id}">
+													${language.id} - ${language.languageName}
+												</option>
+											#{/list}
+									      </select>
+									    </div>
+									</div>
+									<div>
+									   Zagruzit oblojku <input type="file" name="poster"><br />
+									   Zagruzit cor <input type="file" name="cor">
+									</div>
+									<div class="control-group">
+									    <div class="controls">
+									      <button type="submit" class="btn btn-primary" name="submit">Add Resource</button>
+									    </div>
+									</div>
+								#{/form}
+							</div>
+						</div>
+					</div>
+

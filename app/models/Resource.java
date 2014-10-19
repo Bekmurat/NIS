@@ -1,5 +1,8 @@
 package models;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -7,7 +10,6 @@ import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Id;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
@@ -15,17 +17,14 @@ import javax.persistence.Table;
 
 import play.data.validation.MaxSize;
 import play.data.validation.Required;
-import play.db.jpa.GenericModel;
+import play.db.jpa.Blob;
+import play.db.jpa.Model;
+import play.libs.MimeTypes;
 
 @Entity
 @Table(name="NS_RESOURCE")
-public class Resource extends GenericModel {
+public class Resource extends Model {
 	
-	@Required
-	@Id
-	@Column(name="ID_")
-	public long id;
-
 	@Required
 	@ManyToMany(cascade = CascadeType.ALL)
 	@JoinTable(name="NS_RESOURCE_CATEGORY")
@@ -64,10 +63,6 @@ public class Resource extends GenericModel {
 	@Column(name="CONTENT_TYPE_")
 	public String contentType;
 	
-	@Required
-	@Column(name="FILE_NAME_")
-	public String fileName;
-	
 	@Column(name="VIEWED_")
 	public Long viewed;
 	
@@ -77,17 +72,49 @@ public class Resource extends GenericModel {
 	@Column(name="RATE_COUNT_")
 	public Long rateCount;
 	
+	@Required
+	@Column(name="POSTER_NAME_")
+	public String posterName;
+	
+	@Required
+	@Column(name="COR_NAME_")
+	public String corName;
+	
+	public Blob poster;
+	public Blob cor;
+	
 	@OneToMany(mappedBy="resource", cascade=CascadeType.ALL)
 	public List<Comment> comments;
 	 
-	public Resource(String author, String title) { 
+	public Resource() { 
 	    this.comments = new ArrayList<Comment>();
 	    this.categories = new ArrayList<Category>();
 	    this.languages = new ArrayList<Language>();
-	    this.author = author;
-	    this.title = title;
 	    this.uploadDate = new Date();
 	    this.viewed = 0L;
+	    this.rating = 0.0;
+	    this.rateCount = 0L;
+	}
+	
+	public Resource(String title, String keywords, String author, String description,
+			String contentType, Long categoryId, Long languageId){
+		this.title = title;
+		this.keywords = keywords;
+		this.author = author;
+		this.description = description;
+		this.contentType = contentType;
+		this.uploadDate = new Date();
+	    this.viewed = 0L;
+	    this.rating = 0.0;
+	    this.rateCount = 0L;
+	    Category category = Category.findById(categoryId);
+	    this.categories.add(category);
+	    while(category.parentId != null){
+	    	category = Category.findById(category.parentId);
+		    this.categories.add(category);
+	    }
+	    Language language = Language.findById(languageId);
+	    this.languages.add(language);
 	}
 	
 	public Resource addComment(String author, String content) {
@@ -100,4 +127,5 @@ public class Resource extends GenericModel {
 	public String toString() {
 	    return id + " - " + title;
 	}
+	
 }
