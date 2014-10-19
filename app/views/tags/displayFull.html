@@ -12,8 +12,8 @@
 								<div class="product-img">
 
 									#{if _resource.contentType == "audio"}
-										<a class="fancybox" href="img/650x700.jpg"><img src="@{'/public/CORs'}/${_resource.fileName}/../poster.png" /></a>
-										<audio src="@{'public/CORs'}/${_resource.fileName}" controls>
+										<a class="fancybox" href="img/650x700.jpg"><img src="@{'/public/CORs'}/${_resource.posterName}" /></a>
+										<audio src="@{'public/CORs'}/${_resource.corName}" controls>
 										<source src="sound.ogg"> 
 										<source src="sound.mp3"> 
 										Beka: Vaw brauzer ne podderjivaet audio
@@ -22,15 +22,15 @@
 									
 									#{if _resource.contentType == "video"}
 										<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="370" height="250"
-										      poster="@{'/public/CORs'}/${_resource.fileName}/../poster.png"
+										      poster="@{'/public/CORs'}/${_resource.posterName}"
 										      data-setup="{}">
-										    <source src="@{'/public/CORs'}/${_resource.fileName}" type='video/mp4' />
+										    <source src="@{'/public/CORs'}/${_resource.corName}" type='video/mp4' />
 										    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 										</video>
 									#{/if}
 									
 									#{if _resource.contentType == "scorm"}
-										<img src="@{'/public/CORs'}/${_resource.fileName}/../BIG_COR.png" /> <br />
+										<img src="@{'/public/CORs'}/${_resource.posterName}" /> <br />
 										<a href="@{Application.playScorm(_resource.id)}" target="_blank"> Play scorm</a> 
 									#{/if}
 
