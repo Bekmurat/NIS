@@ -20,8 +20,12 @@ public class Application extends Controller {
 
 	public static void index()
     {
+        List<Resource> popularResources = Resource.find("order by viewed_ desc").fetch(4);
+
+        List<Resource> newResources = Resource.find("order by date_ desc").fetch(4);
+
         String menu = menuGenerate();
-        render(menu);
+        render(menu, popularResources, newResources);
     }
     public static String menuGenerate(){
 

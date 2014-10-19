@@ -3,40 +3,100 @@
  
 	<!-- Sidebar Widget
 	================================================== -->
-	<div class="switcher">
-		<h3>Site Switcher</h3>
-		<a class="Widget-toggle-link">+</a>
+	<!--<div class="switcher">-->
+		<!--<h3>Site Switcher</h3>-->
+		<!--<a class="Widget-toggle-link">+</a>-->
 
-		<div class="switcher-content clearfix">
-			<div class="layout-switch">
-				<h4>Layout Style</h4>
-				<div class="btn-group">
-					<a id="wide-style" class="btn">Wide</a>
-	  				<a id="boxed-style" class="btn">Boxed</a>
-				</div>
-			</div><!--end layout-switch-->
+		<!--<div class="switcher-content clearfix">-->
+			<!--<div class="layout-switch">-->
+				<!--<h4>Layout Style</h4>-->
+				<!--<div class="btn-group">-->
+					<!--<a id="wide-style" class="btn">Wide</a>-->
+	  				<!--<a id="boxed-style" class="btn">Boxed</a>-->
+				<!--</div>-->
+			<!--</div>-->
 
-			<div class="color-switch clearfix">
-				<h4>Color Style</h4>
-				<a id="orange-color" class="color-switch-link">orange</a>
-				<a id="blue-color" class="color-switch-link">blue</a>
-				<a id="green-color" class="color-switch-link">green</a>
-				<a id="brown-color" class="color-switch-link">brown</a>
-				<a id="red-color" class="color-switch-link">red</a>
-			</div><!--end color-switch-->
+			<!--<div class="color-switch clearfix">-->
+				<!--<h4>Color Style</h4>-->
+				<!--<a id="orange-color" class="color-switch-link">orange</a>-->
+				<!--<a id="blue-color" class="color-switch-link">blue</a>-->
+				<!--<a id="green-color" class="color-switch-link">green</a>-->
+				<!--<a id="brown-color" class="color-switch-link">brown</a>-->
+				<!--<a id="red-color" class="color-switch-link">red</a>-->
+			<!--</div>&lt;!&ndash;end color-switch&ndash;&gt;-->
 
-			<div class="pattern-switch">
-				<h4>BG Pattern</h4>
-				<a style="background:url(img/backgrounds/retina_wood.png);">retina_wood</a>
-				<a style="background:url(img/backgrounds/bgnoise_lg.png);">bgnoise_lg</a>
-				<a style="background:url(img/backgrounds/purty_wood.png);">purty_wood</a>
-				<a style="background:url(img/backgrounds/irongrip.png);">irongrip</a>
-				<a style="background:url(img/backgrounds/low_contrast_linen.png);">low_contrast_linen</a>
-				<a style="background:url(img/backgrounds/tex2res5.png);">tex2res5</a>
-				<a style="background:url(img/backgrounds/wood_pattern.png);">wood_pattern</a>
-			</div><!--end pattern-switch-->
+			<!--<div class="pattern-switch">-->
+				<!--<h4>BG Pattern</h4>-->
+				<!--<a style="background:url(img/backgrounds/retina_wood.png);">retina_wood</a>-->
+				<!--<a style="background:url(img/backgrounds/bgnoise_lg.png);">bgnoise_lg</a>-->
+				<!--<a style="background:url(img/backgrounds/purty_wood.png);">purty_wood</a>-->
+				<!--<a style="background:url(img/backgrounds/irongrip.png);">irongrip</a>-->
+				<!--<a style="background:url(img/backgrounds/low_contrast_linen.png);">low_contrast_linen</a>-->
+				<!--<a style="background:url(img/backgrounds/tex2res5.png);">tex2res5</a>-->
+				<!--<a style="background:url(img/backgrounds/wood_pattern.png);">wood_pattern</a>-->
+			<!--</div>-->
+		<!--</div>-->
+    <!--</div>-->
 
-		</div><!--end switcher-content-->
-	</div>
-	<!-- End Sidebar Widget-->
+<!-- End Sidebar Widget-->
 
+
+
+<div class="row">
+
+    <div class="span12">
+        <div id="featuredItems">
+            <!-- <div class="span12"> -->
+            <div class="titleHeader clearfix">
+                <h3>Популярные ресурсы (по количеству просмотров)</h3>
+                <!-- 							<div class="pagers">
+                                                <div class="btn-toolbar">
+                                                    <button class="btn btn-mini">View All</button>
+                                                </div>
+                                            </div>   -->
+            </div><!--end titleHeader-->
+            <!-- </div> -->
+
+            <div class="row">
+                <ul class="hProductItems clearfix">
+                    #{list items:popularResources, as:'res'}
+                    <li class="span3 clearfix">
+                        #{display resource:res /}
+                    </li>
+                    #{/list}
+                </ul>
+            </div><!--end row-->
+        </div><!--end featuredItems-->
+    </div><!--end span12-->
+
+</div><!--end row-->
+<br>
+<br>
+<div class="row">
+
+    <div class="span12">
+        <div id="featuredItems">
+            <!-- <div class="span12"> -->
+            <div class="titleHeader clearfix">
+                <h3>Новые ресурсы</h3>
+                <!-- 							<div class="pagers">
+                                                <div class="btn-toolbar">
+                                                    <button class="btn btn-mini">View All</button>
+                                                </div>
+                                            </div>   -->
+            </div><!--end titleHeader-->
+            <!-- </div> -->
+
+            <div class="row">
+                <ul class="hProductItems clearfix">
+                    #{list items:newResources, as:'res'}
+                    <li class="span3 clearfix">
+                        #{display resource:res /}
+                    </li>
+                    #{/list}
+                </ul>
+            </div><!--end row-->
+        </div><!--end featuredItems-->
+    </div><!--end span12-->
+
+</div><!--end row-->
