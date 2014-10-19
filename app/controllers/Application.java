@@ -2,8 +2,11 @@ package controllers;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import com.google.gson.JsonObject;
 import models.Category;
 import models.Comment;
 import models.Language;
@@ -16,14 +19,64 @@ import play.mvc.Controller;
 
 public class Application extends Controller {
 
-	public static void index() {
-        List<Resource> resources = Resource.findAll();
-        render(resources);
+	public static void index()
+    {
+        List<Resource> popularResources = Resource.find("order by viewed_ desc").fetch(4);
+
+        List<Resource> newResources = Resource.find("order by date_ desc").fetch(4);
+
+        String menu = menuGenerate();
+        render(menu, popularResources, newResources);
+    }
+    public static String menuGenerate(){
+
+        List<Category> categories = Category.find("order by parent_id_").fetch();
+        Map<Long, List<Category>> map = new HashMap<Long, List<Category>>();
+
+        List<Category> topLevelMenu = new ArrayList<Category>();
+        for(Category c:categories){
+            if(c.parentId == null){
+                topLevelMenu.add(c);
+            }
+            else{
+                if(map.get(c.parentId) != null ){
+                    List<Category> subCategories = map.get(c.parentId);
+                    subCategories.add(c);
+                    map.put(c.parentId, subCategories);
+                }else{
+                    List<Category> subCategories = new ArrayList<Category>();
+                    subCategories.add(c);
+                    map.put(c.parentId, subCategories);
+                }
+            }
+        }
+
+        String menu = "";
+        menu += recur(topLevelMenu, map , menu);
+
+        return menu;
+    }
+    public static String recur(List<Category> topLevelMenu, Map<Long, List<Category>> map, String menu){
+
+        for(Category c:topLevelMenu)
+        {
+           // System.out.println(c.name);
+            if(map.get(c.id)!=null){
+                //System.out.println(map.get(c.id));
+                menu +="<li><a href='/categories?categoryId="+c.id+"'>"+c.name+"<i class='icon-caret-down'></i></a>";
+                menu +="<div><ul>";
+                menu += recur(map.get(c.id), map , new String());
+                menu +="</ul></div></li>";
+            }else{
+                menu +="<li><a href='/categories?categoryId="+c.id+"'>"+c.name+"</a></li>";
+            }
+        }
+        return menu;
     }
 	
     public static void findByCateg(Long categoryId) {
         List<Resource> resources = Resource.findAll();
-        List<Resource> myResources = new ArrayList<Resource>(); 
+        List<Resource> myResources = new ArrayList<Resource>();
         for(Resource resource:resources){
         	for(Category category:resource.categories){
         		if(category.id == categoryId){
@@ -34,9 +87,8 @@ public class Application extends Controller {
         	}
         }
 
-        List<Category> categories = Category.find("order by id_").fetch();
-
-        render(categories, myResources);
+        String menu = menuGenerate();
+        render(menu, myResources);
     }
     
     public static void showResource(Long resourceId, boolean view) {
@@ -47,7 +99,8 @@ public class Application extends Controller {
 	    	resource.save();
     	}
         String randomID = Codec.UUID();
-        render(resource, randomID);
+        String menu = menuGenerate();
+        render(resource, randomID, menu);
     }
 
     public static void resourceComment(
@@ -86,9 +139,9 @@ public class Application extends Controller {
     	String key_ = "%" + searchKeyword + "%";
         List<Resource> myResources = Resource.find("title_ like ? or keywords_ like ?", key_, key_).fetch();
         System.out.println(key_ + "SEARCHING..." + myResources.toString());
-        List<Category> categories = Category.find("order by id_").fetch();
 
-        render(categories, myResources);
+        String menu = menuGenerate();
+        render(menu, myResources);
     }
 
     public static void updateRating(Long resId, Double r){
