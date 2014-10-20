@@ -12,26 +12,26 @@
 								<div class="product-img">
 
 									#{if _resource.contentType == "audio"}
-										<a class="fancybox" href="img/650x700.jpg"><img src="@{'/public/CORs'}/${_resource.posterName}" /></a>
-										<audio src="@{'public/CORs'}/${_resource.corName}" controls>
+										<a class="fancybox" href="img/650x700.jpg"><img src="@{'/public/CORs'}/${_resource.id}/${_resource.posterName}" /></a>
+										<audio src="@{'public/CORs'}/${_resource.id}/${_resource.corName}" controls>
 										<source src="sound.ogg"> 
 										<source src="sound.mp3"> 
-										Beka: Vaw brauzer ne podderjivaet audio
+										Beka: Ваш браузер не поддерживает аудио
 									</audio>
 									#{/if} 
 									
 									#{if _resource.contentType == "video"}
 										<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="370" height="250"
-										      poster="@{'/public/CORs'}/${_resource.posterName}"
+										      poster="@{'/public/CORs'}/${_resource.id}/${_resource.posterName}"
 										      data-setup="{}">
-										    <source src="@{'/public/CORs'}/${_resource.corName}" type='video/mp4' />
+										    <source src="@{'/public/CORs'}/${_resource.id}/${_resource.corName}" type='video/mp4' />
 										    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 										</video>
 									#{/if}
 									
 									#{if _resource.contentType == "scorm"}
-										<img src="@{'/public/CORs'}/${_resource.posterName}" /> <br />
-										<a href="@{Application.playScorm(_resource.id)}" target="_blank"> Play scorm</a> 
+										<img src="@{'/public/CORs'}/${_resource.id}/${_resource.posterName}" /> <br />
+										<a href="@{Application.playScorm(_resource.id)}" target="_blank"> Открыть SCORM</a> 
 									#{/if}
 
 								</div><!--end product-img-->
@@ -44,20 +44,20 @@
 									</div><!--end product-price-->
 									<div class="product-rate clearfix">
 										<div id='stars'></div> <span id="rate">${_resource.rating}</span>
-										<span>${_resource.rateCount} Review(s)</span>
+										<span>${_resource.rateCount} Оценок</span>
 									</div><!--end product-inputs-->
 									<div class="product-info">
 										<dl class="dl-horizontal">
-										  <dt>Author:</dt>
+										  <dt>Автор:</dt>
 										  <dd>${_resource.author}</dd>
 
-										  <dt>Upload Date:</dt>
+										  <dt>Дата:</dt>
 										  <dd>${_resource.uploadDate.format('dd MMM yy')}</dd>
 
-										  <dt>Viewed:</dt>
+										  <dt>Просмотров:</dt>
 										  <dd>${_resource.viewed}</dd>
 
-										  <dt>Description:</dt>
+										  <dt>Описание:</dt>
 										  <dd>${_resource.description}</dd>
 
 										</dl>
@@ -73,8 +73,7 @@
 					<div class="product-tab">
 						<div class="tab-pane" id="read-review">
 					        <h3>
-					            ${_resource.comments.size() ?: 'no'} 
-					            comment${_resource.comments.size().pluralize()}
+					            ${_resource.comments.size() ?: 'нет'} комментарий
 					        </h3>
 					        #{list items:_resource.comments, as:'comment'}
 								<div class="single-review clearfix">
@@ -85,7 +84,7 @@
 									<div class="review-body">
 										<p>${comment.content.escape().nl2br()}</p>
 									</div><!--end review-body-->
-					                <a href="@{Application.removeResComment(_resource.id, comment.id)}">delete</a>
+					                <a href="@{Application.removeResComment(_resource.id, comment.id)}">удалить</a>
 								</div>
 					        #{/list}
 				        </div>

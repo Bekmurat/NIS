@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <html>
 <head>
-	<title>Player</title>
+	<title>SCORM</title>
 
 	<script type="text/javascript" src="@{'public/scormplayer/Lib/sscompat.js'}"></script> 
 	<script type="text/javascript" src="@{'public/scormplayer/Lib/sscorlib.js'}"></script>  
@@ -38,7 +38,7 @@
   <script type="text/javascript">
     function InitPlayer() {
       PlayerConfiguration.StorageSupport = true;
-      Run.ManifestByURL("/CORs/${resource.fileName}/../imsmanifest.xml", true);
+      Run.ManifestByURL("/CORs/${resource.id}/${resource.corName}/imsmanifest.xml", true);
     }
   </script>
 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<identify>
+<color>eeeeee</color>
+<correctsound>correct.mp3</correctsound>
+<wrongsound>wrong.mp3</wrongsound>
+<image>lessonimages/hotspotImage6.png</image>
+<mask>lessonimages/hotspotImage6Mask.png</mask>
+<useclue>true</useclue>
+<bubblestyle>1</bubblestyle>
+<width>320</width>
+<height>280</height>
+<skipText>Skip</skipText>
+<resetText>Re-start</resetText>
+<hintText>Hint</hintText>
+<completedText>Quiz completed.</completedText>
+<correctText>Right! Good job!</correctText>
+<incorrectText>Sorry, incorrect answer.</incorrectText>
+<mode>explore</mode>
+<clue>lessonimages/hotspotImage6Clue.png</clue>
+<hs1>The+eye+of+the+storm.</hs1>
+<hs2>The+eyewall+is+a+dense+wall+of+thunderstorms+surrounding+the+eye</hs2>
+<hs3>The+outer+rainbands+can+extend+a+few+hundred+miles+from+the+center+of+the+storm.</hs3>
+<hs4></hs4>
+<hs5></hs5>
+<hs6></hs6>
+<hs7></hs7>
+<hs8></hs8>
+<hs9></hs9>
+<hs10></hs10>
+<hs11></hs11>
+<hs12></hs12>
+<hs13></hs13>
+<hs14></hs14>
+<hs15></hs15>
+<hs16></hs16>
+<hs17></hs17>
+<hs18></hs18>
+<hs19></hs19>
+<hs20></hs20>
+ <value>0</value>
+ <valueText>Value:</valueText>
+ <scoreText>Score</scoreText>
+ <resetText>Re-start</resetText>
+</identify>

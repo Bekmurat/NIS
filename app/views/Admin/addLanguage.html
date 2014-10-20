@@ -1,32 +1,33 @@
-					<div class="product-tab">
-						<div class="tab-pane" id="make-review">
-							<div class="form-horizontal">
-								#{form @Admin.addLanguage()}
-									#{ifErrors}
-									    <p class="error">
-									        ${errors[0]}
-									    </p>
-									#{/ifErrors} 
-									<div class="control-group">
-									    <label class="control-label" for="inputName">Id <span class="text-error">*</span></label>
-									    <div class="controls">
-									      <input type="text" name="languageId" id="inputName" placeholder="Enter Id..." value="${params.languageId}">
-									    </div>
-									</div>
-									<div class="control-group">
-										<label class="control-label" for="inputReview">Name <span class="text-error">*</span></label>
-									    <div class="controls">
-									      <input type="text" name="languageName" id="inputReview" placeholder="Enter Language..." value="${params.languageName}">
-									    </div>
-									</div>
-									
-									<div class="control-group">
-									    <div class="controls">
-									      <button type="submit" class="btn btn-primary" name="submit">Add Language</button>
-									    </div>
-									</div>
-								#{/form}
-							</div>
-						</div>
-					</div>
+#{extends 'Admin/admin.html' /}
 
+<!-- BEGIN FORM-->
+#{form @Admin.addLanguage()}
+	<fieldset>
+		#{ifErrors}
+		<div class="alert alert-error hide">
+			<button class="close" data-dismiss="alert"></button>
+			Неправильно заполнена форма, перепроверьте, пожалуйста.
+		</div>
+		#{/ifErrors} 
+		<div class="alert alert-success hide">
+			<button class="close" data-dismiss="alert"></button>
+			Your form validation is successful!
+		</div>
+		<div class="control-group">
+		    <label class="control-label">Ид <span class="required">*</span></label>
+		    <div class="controls">
+		      <input type="text" name="languageId" id="inputName" placeholder="1, 2, 3..." value="${params.languageId}" class="span6 m-wrap">
+		    </div>
+		</div>
+		<div class="control-group">
+			<label class="control-label">Название <span class="required">*</span></label>
+		    <div class="controls">
+		      <input type="text" name="languageName" id="inputReview" placeholder="ru, kz..." value="${params.languageName}" class="span6 m-wrap">
+		    </div>
+		</div>
+		<div class="form-actions">
+			<button type="submit" class="btn btn-primary">Добавить язык</button>
+		</div>
+	</fieldset>
+#{/form}
+<!-- END FORM-->

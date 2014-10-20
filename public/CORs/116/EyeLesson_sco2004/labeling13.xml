@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<draglabel>
+<value>8</value>
+<valueText>Value:</valueText>
+<scoreText>Score</scoreText>
+<resetText>Re-start</resetText>
+<correctsound>correct.mp3</correctsound>
+<wrongsound>wrong.mp3</wrongsound>
+<image>lessonimages/labelingImage13.jpg</image>
+    <imagex>-2</imagex>
+    <imagey>0</imagey>
+    <color>dfeaff</color>
+    <linecolor>ff0000</linecolor>
+    <lineweight>1</lineweight>
+    <correctsound>correct.mp3</correctsound>
+    <largetext>false</largetext>
+    <labelset name="1">
+        <name>Cornea</name>
+        <labx>433.0</labx>
+        <laby>345.0</laby>
+        <dotx>132.0</dotx>
+        <doty>309.0</doty>
+        <cornerx>433.0</cornerx>
+        <cornery>345.0</cornery>
+    </labelset>
+    <labelset name="2">
+        <name>Lens</name>
+        <labx>434.0</labx>
+        <laby>306.0</laby>
+        <dotx>139.0</dotx>
+        <doty>274.0</doty>
+        <cornerx>434.0</cornerx>
+        <cornery>306.0</cornery>
+    </labelset>
+    <labelset name="3">
+        <name>Iris</name>
+        <labx>432.0</labx>
+        <laby>220.0</laby>
+        <dotx>91.0</dotx>
+        <doty>252.0</doty>
+        <cornerx>432.0</cornerx>
+        <cornery>242.0</cornery>
+    </labelset>
+    <labelset name="4">
+        <name>Sclera</name>
+        <labx>433.0</labx>
+        <laby>264.0</laby>
+        <dotx>289.0</dotx>
+        <doty>268.0</doty>
+        <cornerx>433.0</cornerx>
+        <cornery>264.0</cornery>
+    </labelset>
+    <labelset name="5">
+        <name>Macula</name>
+        <labx>435.0</labx>
+        <laby>12.0</laby>
+        <dotx>254.0</dotx>
+        <doty>73.0</doty>
+        <cornerx>435.0</cornerx>
+        <cornery>34.0</cornery>
+    </labelset>
+    <labelset name="6">
+        <name>Optic+Nerve+Head</name>
+        <labx>435.0</labx>
+        <laby>50.0</laby>
+        <dotx>315.0</dotx>
+        <doty>88.0</doty>
+        <cornerx>435.0</cornerx>
+        <cornery>72.0</cornery>
+    </labelset>
+    <labelset name="7">
+        <name>Retinal+Vessels</name>
+        <labx>436.0</labx>
+        <laby>123.0</laby>
+        <dotx>262.0</dotx>
+        <doty>118.0</doty>
+        <cornerx>436.0</cornerx>
+        <cornery>123.0</cornery>
+    </labelset>
+    <labelset name="8">
+        <name>Vortex+Veins</name>
+        <labx>432.0</labx>
+        <laby>173.0</laby>
+        <dotx>181.0</dotx>
+        <doty>195.0</doty>
+        <cornerx>432.0</cornerx>
+        <cornery>195.0</cornery>
+    </labelset>
+</draglabel>

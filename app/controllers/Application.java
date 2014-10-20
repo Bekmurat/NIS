@@ -105,20 +105,21 @@ public class Application extends Controller {
 
     public static void resourceComment(
             Long resourceId, 
-            @Required(message="Author is required") String author, 
-            @Required(message="A message is required") String content, 
-            @Required(message="Please type the code") String code, 
+            @Required(message="Автор обязателен") String author, 
+            @Required(message="Коммент обязателен") String content, 
+            @Required(message="Введите код") String code, 
             String randomID) 
     {
         Resource resource = Resource.findById(resourceId);
         validation.equals(
             code, Cache.get(randomID)
-        ).message("Invalid code. Please type it again");
+        ).message("Неправильный код. Пожалуйста, попробуйте ещё раз.");
         if(validation.hasErrors()) {
-            render("Application/showResource.html", resource, randomID);
+        	String menu = menuGenerate();
+            render("Application/showResource.html", resource, randomID, menu);
         }
         resource.addComment(author, content);
-        flash.success("Thanks for posting %s", author);
+        flash.success("Ваш комментарий принят %s", author);
         Cache.delete(randomID);
         showResource(resourceId, false);
     }
@@ -137,7 +138,7 @@ public class Application extends Controller {
     
     public static void searchByName(String searchKeyword){
     	String key_ = "%" + searchKeyword + "%";
-        List<Resource> myResources = Resource.find("title_ like ? or keywords_ like ?", key_, key_).fetch();
+        List<Resource> myResources = Resource.find("lower(title_) like ? or lower(keywords_) like ?", key_.toLowerCase(), key_.toLowerCase()).fetch();
         System.out.println(key_ + "SEARCHING..." + myResources.toString());
 
         String menu = menuGenerate();

@@ -1,0 +1,110 @@
+! SoftChalk LessonBuilder ORM File (C)2004-2010
+! ================ DO NOT EDIT ================
+
+!Mac OS X, 10.6.8
+!Java 1.6.0_26
+
+paste_image4
+type=1 page=1 content=<ul><li>View more <a target="_blank" href="http://www.nei.nih.gov/health/eyediagram/index.asp">eye diagrams</a></li><li>Please read this <a href="The Basics of Eye Anatomy.doc" target="_blank">material</a></li></ul><p>&nbsp;</p>
+type=1 page=0 content=<h3></h3><ul><li>View more <a target="_blank" href="http://www.nei.nih.gov/health/eyediagram/index.asp">eye diagrams</a></li><li>Please read this <a href="The Basics of Eye Anatomy.doc" target="_blank">material</a></li></ul><p>&nbsp;</p>
+type=1 page=6 content=<p>View more <a href="http://www.nei.nih.gov/health/eyediagram/index.asp" target="_blank">eye diagrams</a></p><p>Learn about <a href="http://www.nei.nih.gov/health/" target="_blank">eye diseases</a></p><p>&nbsp;</p>
+type=1 page=5 content=<p>View more <a href="http://www.nei.nih.gov/health/eyediagram/index.asp" target="_blank">eye diagrams</a></p><p>Learn about <a href="http://www.nei.nih.gov/health/" target="_blank">eye diseases</a></p><p>&nbsp;</p>
+type=1 page=4 content=<p>View more <a href="http://www.nei.nih.gov/health/eyediagram/index.asp" target="_blank">eye diagrams</a></p><p>Learn about <a href="http://www.nei.nih.gov/health/" target="_blank">eye diseases</a></p><p>&nbsp;</p>
+type=1 page=3 content=<p>View more <a href="http://www.nei.nih.gov/health/eyediagram/index.asp" target="_blank">eye diagrams</a></p><p>Learn about <a href="http://www.nei.nih.gov/health/" target="_blank">eye diseases</a></p><p>&nbsp;</p>
+type=0 page=1 content=<h3>Credits</h3><p>All images in this lesson were used courtesy of the <a href="http://www.nei.nih.gov" target="_blank">National Eye Institute, National Institutes of Health</a>.</p>
+type=0 page=6 content=<h3>Credits</h3><p>All images in this lesson were used courtesy of the <a href="http://www.nei.nih.gov" target="_blank">National Eye Institute, National Institutes of Health</a>.</p>
+type=0 page=5 content=<h3>Credits</h3><p>All images in this lesson were used courtesy of the <a href="http://www.nei.nih.gov" target="_blank">National Eye Institute, National Institutes of Health</a>.</p>
+type=0 page=4 content=<h3>Credits</h3><p>All images in this lesson were used courtesy of the <a href="http://www.nei.nih.gov" target="_blank">National Eye Institute, National Institutes of Health</a>.</p>
+type=0 page=3 content=<h3>Credits</h3><p>All images in this lesson were used courtesy of the <a href="http://www.nei.nih.gov" target="_blank">National Eye Institute, National Institutes of Health</a>.</p>
+pagename_1=Introduction
+pagename_6=Check Your Understanding
+pagename_5=Macular Degeneration
+pagename_4=Eye Diseases
+pagename_3=Explore the Eye
+
+obj_item=47
+inlinetype=2 objNum=19 src=anatomy.mov width=240 height=240 desc="Video file." mathML=
+inlinetype=7 objNum=46 src= width=0 height=0 desc="How much of what we see or hear, taste, smell, or touch, is actually recorded by the brain without our conscious awareness? One method psychologists use to study this phenomenon is to study people who have had damage to the primary visual cortex. Clearly these patients know something they don't know they know. Even in the absence of such brain damage, the" widget=<iframe src="http://searchcenter.intelecomonline.net/playClipEmbed.aspx?id=06E0E385991329119B4CE15504DCAC9399BE8982D88FAD5645A918E074084E56AE951B5063270BD509036FA8144F27DD&v=l" width="430" height="430" frameborder="0"></iframe>^endWidget widgetName=Widget reference number 46;
+inlinetype=7 objNum=42 src= width=0 height=0 desc="Widget" widget=<script language="javascript" type="text/javascript"> var PDF_surveyID = '2D48CBF25AF5C597';  var PDF_openText = 'View Survey'; </script> <script type="text/javascript" language="javascript" src="http://www.polldaddy.com/s.js"></script> <noscript><a href="http://www.polldaddy.com/s/2D48CBF25AF5C597/">View Survey</a></noscript>^endWidget widgetName=Survey of Version 5;
+inlinetype=7 objNum=40 src= width=0 height=0 desc="Widget" widget=<script type="text/javascript" src="http://cdn.widgetserver.com/syndication/subscriber/InsertWidget.js"></script><script>if (WIDGETBOX) WIDGETBOX.renderWidget('2cbb9fb1-a9de-48cb-90bf-ff495df519cd');</script><noscript>Get the <a href="http://www.widgetbox.com/widget/eyedocnews-blog-on-eye-disease-and-treatment">EyeDocNews Blog on Eye Disease and Treatment</a> widget and many other <a href="http://www.widgetbox.com/">great free widgets</a> at <a href="http://www.widgetbox.com">Widgetbox</a>!</noscript>^endWidget widgetName=Blog;
+inlinetype=6 objNum=17 src=http://www.youtube.com/v/tPW136SiV_I width=425 height=355 desc="Flash movie." webMovie=<embed src="http://www.youtube.com/v/tPW136SiV_I" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>^endWebMovie
+inlinetype=2 objNum=25 src=MacularDegeneration.mov width=250 height=250 desc="Video file." mathML=
+inlinetype=7 objNum=39 src= width=0 height=0 desc="Widget" widget=<script src="http://i.cdn.turner.com/cnn/.element/js/2.0/video/evp/module.js?loc=dom&vid=/video/health/2009/03/13/melanie.bloom.dvt.cnn" type="text/javascript"></script><noscript>Embedded video from <a href="http://www.cnn.com/video">CNN Video</a></noscript>^endWidget widgetName=CNN Health Report;
+
+#MainFileName      := [EyeLesson]
+#LessonTitle       := [Eye Anatomy - A guide to the Human Eye]
+#LessonDescription := []
+#LessonKeywords    := [The Eye as a Camera,Review the Eye Structures,Eye Diseases,Eye Anatomy,Eye Anatomy - A guide to the Human Eye,Eye Anatomy - A guide to the Human Eye,Eye Anatomy - A guide to the Human Eye,Eye Anatomy - A guide to the Human Eye,Eye Anatomy - A guide to the Human Eye,Eye Anatomy - A guide to the Human Eye]
+#FootThree         := []
+#SchoolName        := []
+#EmailAddress      := []
+#CEUs              := []
+#PrintCert         := [false]
+#PrintSummary      := [false]
+#EmailResults      := [false]
+#PassPercent       := [25]
+#CustomStyleName   := [Wheel Banner]
+#CSSJustification  := [1]
+#OnThisPage        := [true]
+#PageNav           := [true]
+#FootCopyright     := [true]
+#FootDate          := [true]
+#LessonTitle2      := []
+#TOCSidebar        := [true]
+#TOCNavbar         := [true]
+#TOCEntry          := [false]
+#LessonVersion     := [7.01.05]
+#PrevNextArrows    := [true]
+#VersionExtension  := []
+#FileOpenerType    := [7]
+#LanguageOut       := [English]
+#SubmitToScoreTr   := [false]
+#PrintAll          := [false]
+#TimeStamp         := [1327002766614]
+#SingleTry         := [false]
+#ScormComStatus    := [true]
+#Creator           := []
+#Publisher         := [SoftChalk LessonBuilder]
+#OtherContributor  := [None]
+#Source            := [None]
+#Relation          := [None]
+#Rights            := [yes]
+#Cost              := [None]
+#Coverage          := []
+#Format            := [HTML / XHTML]
+#ResouceType       := [Tutorial]
+#TotalLessonPoints := [52]
+#NumPages          := [6]
+#PlayActFeedback   := [true]
+#QpExtraWide       := [false]
+#UseMasteryScore   := [false]
+#MasteryScoreValue := [0]
+#BBLinkText        := [Click to view]
+#BBItemName        := [The Basics of the Human Eye]
+#Visible           := [true]
+#TrackNumViews     := [false]
+#NavControlType    := [flow]
+#AddToGradebook    := [true]
+#FirstAttemptOnly  := [true]
+#PointsPossible    := [0]
+#ccForumUsed       := [false]
+#ccForumTitle      := []
+#ccForumTopic      := []
+#LaunchInNewWindow   := [false]
+#CreatorFirstName    := []
+#CreatorLastName     := []
+#CreatorEmail        := []
+#UseObjectMetadata    := [false]
+#LessonRevisionNumber := [14]
+#ConnectAccessType      := [1]
+#ConnectAllowViewing    := [false]
+#ConnectMaxAttempts     := [-1]
+#ConnectScoringOption   := [first]
+#ConnectScoreCenterUser := []
+#SaveAsScoreCenter      := [false]
+#RS_id                  := []
+#RS_jsURL               := []
+#RS_domain              := []
+#RS_useReadSpeaker      := [false]
+#RS_inSidebar           := [true]
+#ScoreCenterHost        := [https://www.softchalkconnect.com]

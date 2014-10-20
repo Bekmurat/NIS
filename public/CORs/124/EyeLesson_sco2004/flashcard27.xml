@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<order>
+<color>dfeaff</color>
+<showterm>true</showterm>
+<showdef>false</showdef><bigtext>false</bigtext><customDeckText>Custom Deck</customDeckText>
+<wholeDeckText>Whole Deck</wholeDeckText>
+<showText>SHOW</showText>
+<addToText>Add to Custom</addToText>
+<showTermText>Show Term</showTermText>
+<showDefText>Show Definition</showDefText>
+<orderset value='1'>
+ <term>Normal+Vision</term>
+ <def></def>
+ <image>lessonimages/flashcard27_1.jpg</image>
+ <width>230</width>
+ <height>147</height>
+</orderset>
+<orderset value='2'>
+ <term>Cataract</term>
+ <def>A+cataract+is+a+clouding+of+the+lens+in+the+eye+that+affects+vision.+Most+cataracts+are+related+to+aging.</def>
+ <image>lessonimages/flashcard27_2.jpg</image>
+ <width>230</width>
+ <height>147</height>
+</orderset>
+<orderset value='3'>
+ <term>Retinitis+Pigmentosa</term>
+ <def>Retinitis+pigmentosa+is+a+group+of+inherited+retinal+diseases+that+affects+about+100%2C000+Americans+and+1.5+million+people+worldwide.</def>
+ <image>lessonimages/flashcard27_3.jpg</image>
+ <width>230</width>
+ <height>147</height>
+</orderset>
+<orderset value='4'>
+ <term>Myopia</term>
+ <def>Myopia%2C+or+nearsightedness%2C+is+when+the+cornea+is+curved+too+much.</def>
+ <image>lessonimages/flashcard27_4.jpg</image>
+ <width>230</width>
+ <height>147</height>
+</orderset>
+<orderset value='5'>
+ <term>Glaucoma</term>
+ <def>Glaucoma+is+a+group+of+diseases+that+can+damage+the+eye%27s+optic+nerve+and+result+in+vision+loss+and+blindness.+It+is+one+of+the+main+causes+of+blindness+in+the+United+States.</def>
+ <image>lessonimages/flashcard27_5.jpg</image>
+ <width>230</width>
+ <height>147</height>
+</orderset>
+<orderset value='6'>
+ <term>Age-related+macular+degeneration</term>
+ <def>Age-related+macular+degeneration+%28AMD%29+is+a+disease+associated+with+aging+that+gradually+destroys+sharp%2C+central+vision.</def>
+ <image>lessonimages/flashcard27_6.jpg</image>
+ <width>230</width>
+ <height>147</height>
+</orderset>
+<orderset value='7'>
+ <term>Diabetic+retinopathy</term>
+ <def>Diabetic+retinopathy+is+the+most+common+diabetic+eye+disease+and+a+leading+cause+of+blindness+in+American+adults.+It+is+caused+by+changes+in+the+blood+vessels+of+the+retina.</def>
+ <image>lessonimages/flashcard27_7.jpg</image>
+ <width>230</width>
+ <height>147</height>
+</orderset>
+</order>

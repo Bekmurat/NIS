@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<JigsawPuzzleActivity>
+    <BackgroundColor>#DFEAFF</BackgroundColor>
+    <Rows>2</Rows>
+    <Columns>2</Columns>
+    <Score>8</Score>
+    <ScoreLabel>Score</ScoreLabel>
+    <FinishButtonLabel>Finish</FinishButtonLabel>
+    <RestartButtonLabel>Re-start</RestartButtonLabel>
+    <AllowReset>true</AllowReset>
+    <CorrectSound>correct.mp3</CorrectSound>
+    <PuzzleImage>
+        <Image>%3Cimg+src%3D%22lessonimages%2Fjigsawpuzzle28_image.png%22+width%3D%22561%22+height%3D%22555%22%3E</Image>
+        <MathML/>
+    </PuzzleImage>
+</JigsawPuzzleActivity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cardset>
+ <color>fde0bd</color>
+ <correctsound>correct.mp3</correctsound>
+<largetext>false</largetext>
+ <wrongsound>wrong.mp3</wrongsound>
+ <value>6</value>
+ <valueText>Value:</valueText>
+ <scoreText>Score</scoreText>
+ <resetText>Re-start</resetText>
+ <cat1>Virginia</cat1>
+ <cat2>Pennsylvania</cat2>
+ <cat3>New+York</cat3>
+ <cat4>Georgia</cat4>
+ <card value='1'>
+  <cat>1</cat>
+  <image>lessonimages/sorting10_1.jpg</image>
+  <title>Thomas+Jefferso</title>
+  <title2></title2>
+  <text></text>
+ </card>
+ <card value='2'>
+  <cat>1</cat>
+  <image>lessonimages/sorting10_2.jpg</image>
+  <title>Francis+Lightfo</title>
+  <title2></title2>
+  <text></text>
+ </card>
+ <card value='3'>
+  <cat>2</cat>
+  <image>lessonimages/sorting10_3.gif</image>
+  <title>Benjamin+Frankl</title>
+  <title2></title2>
+  <text></text>
+ </card>
+ <card value='4'>
+  <cat>2</cat>
+  <image>lessonimages/sorting10_4.jpg</image>
+  <title>John+Morton</title>
+  <title2></title2>
+  <text></text>
+ </card>
+ <card value='5'>
+  <cat>3</cat>
+  <image>lessonimages/sorting10_5.jpg</image>
+  <title>Lewis+Morris</title>
+  <title2></title2>
+  <text></text>
+ </card>
+ <card value='6'>
+  <cat>4</cat>
+  <image>lessonimages/sorting10_6.jpg</image>
+  <title>George+Walton</title>
+  <title2></title2>
+  <text></text>
+ </card>
+</cardset>

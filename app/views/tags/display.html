@@ -1,16 +1,16 @@
 
 <div class="thumbnail">
-	<a href=""><img src="@{'/public/CORs'}/${_resource.posterName}" width="210px;" height="230px;"/></a>
+	<a href="@{Application.showResource(_resource.id, true)}"><img src="@{'/public/CORs'}/${_resource.id}/${_resource.posterName}" style="width: 210px; height: 230px;"/></a>
 </div>
 <div class="thumbSetting">
 	<div class="thumbTitle">
         <a class="invarseColor" href="@{Application.showResource(_resource.id, true)}">${_resource.title}</a>
 	</div>
 	<div class="thumbPrice">
-        <span>Author: ${_resource.author}</span><br />
-        <span>Upload date: ${_resource.uploadDate.format('dd MMM yy')}</span><br />
-        <span>Type: ${_resource.contentType}</span><br />
-        <span>Viewed: ${_resource.viewed}</span><br />
+        <span>Автор: ${_resource.author}</span><br />
+        <span>Дата: ${_resource.uploadDate.format('dd MMM yy')}</span><br />
+        <span>Тип: ${_resource.contentType}</span><br />
+        <span>Просмотров: ${_resource.viewed}</span><br />
 		<div id='${_resource.id}stars'></div> <span id="rate" style="margin-top: 5px;">(${_resource.rating})</span>
 	</div>
 </div>

@@ -19,7 +19,8 @@ import play.mvc.Controller;
 public class Admin extends Controller {
 	
     public static void admin(){
-		render();
+    	List<Category> categories = Category.findAll();
+    	render(categories);
     }
     
     public static void listCategories(){
@@ -37,21 +38,13 @@ public class Admin extends Controller {
     	render(languages);
     }
     
-    public static void addCategory(@Required(message="Id is required") Long id,
-    		@Required(message="Name is required") String name,
-    		@Required(message="Parent is required") Long parentId,
-    		@Required(message="Level is required") Long levelId){
+    public static void addCategory(@Required(message="Name is required") String name, Long parentId){
     	
         if(validation.hasErrors()) {
-            render("Admin/addCategory.html");
+        	List<Category> categories = Category.findAll();
+            render("Admin/addCategory.html", categories);
         }
-        
-        Category categ = Category.findById(id);
-        if(categ == null){
-        	new Category(id, name, parentId, levelId).save();
-        }
-
-    	System.out.println(id + name + parentId + levelId);
+    	new Category(name, parentId).save();
     	listCategories();
     }
     
@@ -111,17 +104,19 @@ public class Admin extends Controller {
 		
 		if(resource.contentType.equals("scorm")){
 			resource.corName = cor.getName().substring(0, cor.getName().length()-4);
-			File unzippedCOR = new File("public/CORs/" + resource.corName);
+			File unzippedCOR = new File("public/CORs/" + resource.id + "/"  + resource.corName);
 			Files.unzip(resource.cor.getFile(), unzippedCOR);
 			resource.save();
 		}else{
 			resource.corName = cor.getName();
-			resource.cor.getFile().renameTo(new File("public/CORs/" + resource.corName));
+			resource.cor.getFile().renameTo(new File("public/CORs/" + resource.id + "/"  + resource.corName));
 			resource.save();
 		}
 		resource.posterName = poster.getName();
 		resource.save();
-		resource.poster.getFile().renameTo(new File("public/CORs/" + resource.posterName));
+		resource.poster.getFile().renameTo(new File("public/CORs/" + resource.id + "/" + resource.posterName));
+		resource.poster = null;
+		resource.cor = null;
 		listResources();
     }
     

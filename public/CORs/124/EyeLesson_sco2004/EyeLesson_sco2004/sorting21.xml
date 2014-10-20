@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cardset>
+ <color>dfeaff</color>
+ <correctsound>correct.mp3</correctsound>
+<largetext>false</largetext>
+ <wrongsound>wrong.mp3</wrongsound>
+ <value>8</value>
+ <valueText>Value:</valueText>
+ <scoreText>Score</scoreText>
+ <resetText>Re-start</resetText>
+ <cat1>Early+AMD</cat1>
+ <cat2>Intermediate+AMD</cat2>
+ <cat3>Advanced+AMD</cat3>
+ <card value='1'>
+  <cat>1</cat>
+  <image></image>
+  <title></title>
+  <title2></title2>
+  <text>small+drusen+or+few+medium-sized+drusen</text>
+ </card>
+ <card value='2'>
+  <cat>1</cat>
+  <image></image>
+  <title></title>
+  <title2></title2>
+  <text>no+symptoms+and+no+vision+loss</text>
+ </card>
+ <card value='3'>
+  <cat>2</cat>
+  <image></image>
+  <title></title>
+  <title2></title2>
+  <text>many+medium-sized+drusen+or+one+or+more+large+drusen.</text>
+ </card>
+ <card value='4'>
+  <cat>2</cat>
+  <image></image>
+  <title></title>
+  <title2></title2>
+  <text>more+light+may+be+needed+for+reading</text>
+ </card>
+ <card value='5'>
+  <cat>3</cat>
+  <image></image>
+  <title></title>
+  <title2></title2>
+  <text>difficulty+reading</text>
+ </card>
+ <card value='6'>
+  <cat>3</cat>
+  <image></image>
+  <title></title>
+  <title2></title2>
+  <text>difficulty+recognizing+faces+until+they+are+very+close+to+you.</text>
+ </card>
+ <card value='7'>
+  <cat>3</cat>
+  <image></image>
+  <title></title>
+  <title2></title2>
+  <text>large+dark+blurred+spot+in+the+center+of+your+vision</text>
+ </card>
+ <card value='8'>
+  <cat>2</cat>
+  <image></image>
+  <title></title>
+  <title2></title2>
+  <text>some+people+have+a+blurred+spot+in+the+center+of+their+vision</text>
+ </card>
+</cardset>

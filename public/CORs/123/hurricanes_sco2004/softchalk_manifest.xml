@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lesson>
+<id>1207762575750</id>
+<lessonrevisionnumber>11</lessonrevisionnumber>
+<points>30</points>
+<name urlencoding="UTF-8"><![CDATA[All+About+Hurricanes...]]></name>
+<scoreditems>
+  <quizpopper>
+    <id>quizpopper3</id>
+    <type>5</type>
+    <points>5</points>
+    <retry>true</retry>
+    <position>1</position>
+    <page>2</page>
+    <question urlencoding="UTF-8"><![CDATA[Match+the+items.]]></question>
+    <choices>
+      <choice>
+        <targetid>q3a</targetid>
+        <textid>q3_1</textid>
+        <text urlencoding="UTF-8"><![CDATA[Category+1]]></text>
+        <target urlencoding="UTF-8"><![CDATA[No+real+damage+to+building+structures.]]></target>
+        <value urlencoding="UTF-8"><![CDATA[a]]></value>
+      </choice>
+      <choice>
+        <targetid>q3b</targetid>
+        <textid>q3_2</textid>
+        <text urlencoding="UTF-8"><![CDATA[Category+2]]></text>
+        <target urlencoding="UTF-8"><![CDATA[Considerable+damage+to+vegetation%2C+mobile+homes%2C+etc.]]></target>
+        <value urlencoding="UTF-8"><![CDATA[b]]></value>
+      </choice>
+      <choice>
+        <targetid>q3c</targetid>
+        <textid>q3_3</textid>
+        <text urlencoding="UTF-8"><![CDATA[Category+3]]></text>
+        <target urlencoding="UTF-8"><![CDATA[Terrain+may+be+flooded+well+inland.]]></target>
+        <value urlencoding="UTF-8"><![CDATA[e]]></value>
+      </choice>
+      <choice>
+        <targetid>q3d</targetid>
+        <textid>q3_4</textid>
+        <text urlencoding="UTF-8"><![CDATA[Category+4]]></text>
+        <target urlencoding="UTF-8"><![CDATA[Major+erosion+of+beach+areas.]]></target>
+        <value urlencoding="UTF-8"><![CDATA[c]]></value>
+      </choice>
+      <choice>
+        <targetid>q3e</targetid>
+        <textid>q3_5</textid>
+        <text urlencoding="UTF-8"><![CDATA[Category+5]]></text>
+        <target urlencoding="UTF-8"><![CDATA[Some+complete+building+failures]]></target>
+        <value urlencoding="UTF-8"><![CDATA[d]]></value>
+      </choice>
+    </choices>
+<metadata xmlns:csmd="http://www.imsglobal.org/profile/cc/ccv1p2/ccv1p2_imscsmd_v1p0.xsd" xmlns:dc="http://dublincore.org/documents/dces/">
+    <dc:title urlencoding="UTF-8"/>
+    <dc:description urlencoding="UTF-8"/>
+    <dc:creator urlencoding="UTF-8"/>
+    <dc:contributor urlencoding="UTF-8">None</dc:contributor>
+    <dc:source urlencoding="UTF-8">None</dc:source>
+    <dc:relation urlencoding="UTF-8">None</dc:relation>
+    <dc:rights>yes</dc:rights>
+    <dc:coverage urlencoding="UTF-8"/>
+    <dc:subject/>
+    <dc:format>HTML / XHTML</dc:format>
+    <dc:type>Tutorial</dc:type>
+    <dc:audience>Unspecified</dc:audience>
+    <dc:license>Attribution</dc:license>
+    <dc:publisher urlencoding="UTF-8">SoftChalk</dc:publisher>
+    <version urlencoding="UTF-8">1.0</version>
+    <Cost Currency="USD" urlencoding="UTF-8">None</Cost>
+    <SubTitle urlencoding="UTF-8"/>
+    <SingleTry/>
+    <TotalPoints/>
+    <SchoolName urlencoding="UTF-8"/>
+    <Language urlencoding="UTF-8"/>
+    <NumberOfPages/>
+    <MainFileName/>
+    <CreatorFirstName urlencoding="UTF-8"/>
+    <CreatorLastName urlencoding="UTF-8"/>
+    <Subjects/>
+    <Levels/>
+    <ImagesPresent>false</ImagesPresent>
+    <ImageEquivalents>false</ImageEquivalents>
+    <ImageEquivalentsPresentation>Unspecified</ImageEquivalentsPresentation>
+    <StructuralElements/>
+    <FlashingPresent>false</FlashingPresent>
+    <FlashingSlow>false</FlashingSlow>
+    <FlashingDisablable>false</FlashingDisablable>
+    <MultimediaPresent>false</MultimediaPresent>
+    <MultimediaFormats/>
+    <MultimediaAlternatives/>
+    <MultimediaComment urlencoding="UTF-8"/>
+    <TablesPresent>false</TablesPresent>
+    <TablesPresentation>Unspecified</TablesPresentation>
+    <TableRowsColumnsIdentified>false</TableRowsColumnsIdentified>
+    <ColorUsedForInformation>false</ColorUsedForInformation>
+    <ColorAlternativesPresent>false</ColorAlternativesPresent>
+    <TextContrast>Good</TextContrast>
+    <TextModifiables/>
+    <CommericalAlternative>false</CommericalAlternative>
+    <CommericalAlternativeObjects>false</CommericalAlternativeObjects>
+    <CommericalAlternativeReadingOrder>false</CommericalAlternativeReadingOrder>
+    <FramesPresent>true</FramesPresent>
+    <FormsPresent>false</FormsPresent>
+    <ImageMapsPresent>false</ImageMapsPresent>
+    <TimedResponseUsed>false</TimedResponseUsed>
+    <Hazards>
+        <Hazard>None</Hazard>
+    </Hazards>
+    <SupportTools>
+        <SupportTool>None</SupportTool>
+    </SupportTools>
+    <StandardsSupport>
+        <WCAGLevel>WCAG1A</WCAGLevel>
+        <LegislationSupport>
+            <Legislation>US (Section 508)</Legislation>
+        </LegislationSupport>
+        <StandardsComment urlencoding="UTF-8"/>
+    </StandardsSupport>
+</metadata>
+  </quizpopper>
+  <quizpopper>
+    <id>quizpopper14</id>
+    <type>3</type>
+    <points>5</points>
+    <retry>true</retry>
+    <position>3</position>
+    <page>7</page>
+    <question urlencoding="UTF-8"><![CDATA[The+process+by+which+a+tropical+cyclone+forms+and+subsequently+strengthens+into+a+hurricane+depends+on+at+least+three+conditions.+Name+these+three+conditions.]]></question>
+    <choices>
+      <choice>
+        <id>q14a</id>
+        <correct>true</correct>
+        <text urlencoding="UTF-8"><![CDATA[existing+thunderstoms]]></text>
+      </choice>
+      <choice>
+        <id>q14b</id>
+        <correct>true</correct>
+        <text urlencoding="UTF-8"><![CDATA[warm+temperature]]></text>
+      </choice>
+      <choice>
+        <id>q14c</id>
+        <correct>true</correct>
+        <text urlencoding="UTF-8"><![CDATA[low+wind+shear]]></text>
+      </choice>
+    </choices>
+<metadata xmlns:csmd="http://www.imsglobal.org/profile/cc/ccv1p2/ccv1p2_imscsmd_v1p0.xsd" xmlns:dc="http://dublincore.org/documents/dces/">
+    <dc:title urlencoding="UTF-8"/>
+    <dc:description urlencoding="UTF-8"/>
+    <dc:creator urlencoding="UTF-8"/>
+    <dc:contributor urlencoding="UTF-8">None</dc:contributor>
+    <dc:source urlencoding="UTF-8">None</dc:source>
+    <dc:relation urlencoding="UTF-8">None</dc:relation>
+    <dc:rights>yes</dc:rights>
+    <dc:coverage urlencoding="UTF-8"/>
+    <dc:subject/>
+    <dc:format>HTML / XHTML</dc:format>
+    <dc:type>Tutorial</dc:type>
+    <dc:audience>Unspecified</dc:audience>
+    <dc:license>Attribution</dc:license>
+    <dc:publisher urlencoding="UTF-8">SoftChalk</dc:publisher>
+    <version urlencoding="UTF-8">1.0</version>
+    <Cost Currency="USD" urlencoding="UTF-8">None</Cost>
+    <SubTitle urlencoding="UTF-8"/>
+    <SingleTry/>
+    <TotalPoints/>
+    <SchoolName urlencoding="UTF-8"/>
+    <Language urlencoding="UTF-8"/>
+    <NumberOfPages/>
+    <MainFileName/>
+    <CreatorFirstName urlencoding="UTF-8"/>
+    <CreatorLastName urlencoding="UTF-8"/>
+    <Subjects/>
+    <Levels/>
+    <ImagesPresent>false</ImagesPresent>
+    <ImageEquivalents>false</ImageEquivalents>
+    <ImageEquivalentsPresentation>Unspecified</ImageEquivalentsPresentation>
+    <StructuralElements/>
+    <FlashingPresent>false</FlashingPresent>
+    <FlashingSlow>false</FlashingSlow>
+    <FlashingDisablable>false</FlashingDisablable>
+    <MultimediaPresent>false</MultimediaPresent>
+    <MultimediaFormats/>
+    <MultimediaAlternatives/>
+    <MultimediaComment urlencoding="UTF-8"/>
+    <TablesPresent>false</TablesPresent>
+    <TablesPresentation>Unspecified</TablesPresentation>
+    <TableRowsColumnsIdentified>false</TableRowsColumnsIdentified>
+    <ColorUsedForInformation>false</ColorUsedForInformation>
+    <ColorAlternativesPresent>false</ColorAlternativesPresent>
+    <TextContrast>Good</TextContrast>
+    <TextModifiables/>
+    <CommericalAlternative>false</CommericalAlternative>
+    <CommericalAlternativeObjects>false</CommericalAlternativeObjects>
+    <CommericalAlternativeReadingOrder>false</CommericalAlternativeReadingOrder>
+    <FramesPresent>true</FramesPresent>
+    <FormsPresent>false</FormsPresent>
+    <ImageMapsPresent>false</ImageMapsPresent>
+    <TimedResponseUsed>false</TimedResponseUsed>
+    <Hazards>
+        <Hazard>None</Hazard>
+    </Hazards>
+    <SupportTools>
+        <SupportTool>None</SupportTool>
+    </SupportTools>
+    <StandardsSupport>
+        <WCAGLevel>WCAG1A</WCAGLevel>
+        <LegislationSupport>
+            <Legislation>US (Section 508)</Legislation>
+        </LegislationSupport>
+        <StandardsComment urlencoding="UTF-8"/>
+    </StandardsSupport>
+</metadata>
+  </quizpopper>
+  <quizpopper>
+    <id>quizpopper7</id>
+    <type>4</type>
+    <points>5</points>
+    <retry>true</retry>
+    <position>4</position>
+    <page>7</page>
+    <question urlencoding="UTF-8"><![CDATA[What+are+the+ingredients+for+a+hurricane]]></question>
+    <choices>
+      <choice>
+        <casesensitive>false</casesensitive>
+        <text urlencoding="UTF-8"><![CDATA[pre-existing+weather+disturbance]]></text>
+      </choice>
+      <choice>
+        <casesensitive>false</casesensitive>
+        <text urlencoding="UTF-8"><![CDATA[warm+tropical+oceans]]></text>
+      </choice>
+      <choice>
+        <casesensitive>false</casesensitive>
+        <text urlencoding="UTF-8"><![CDATA[moisture]]></text>
+      </choice>
+      <choice>
+        <casesensitive>false</casesensitive>
+        <text urlencoding="UTF-8"><![CDATA[relatively+light+winds+aloft]]></text>
+      </choice>
+    </choices>
+<metadata xmlns:csmd="http://www.imsglobal.org/profile/cc/ccv1p2/ccv1p2_imscsmd_v1p0.xsd" xmlns:dc="http://dublincore.org/documents/dces/">
+    <dc:title urlencoding="UTF-8"/>
+    <dc:description urlencoding="UTF-8"/>
+    <dc:creator urlencoding="UTF-8"/>
+    <dc:contributor urlencoding="UTF-8">None</dc:contributor>
+    <dc:source urlencoding="UTF-8">None</dc:source>
+    <dc:relation urlencoding="UTF-8">None</dc:relation>
+    <dc:rights>yes</dc:rights>
+    <dc:coverage urlencoding="UTF-8"/>
+    <dc:subject/>
+    <dc:format>HTML / XHTML</dc:format>
+    <dc:type>Tutorial</dc:type>
+    <dc:audience>Unspecified</dc:audience>
+    <dc:license>Attribution</dc:license>
+    <dc:publisher urlencoding="UTF-8">SoftChalk</dc:publisher>
+    <version urlencoding="UTF-8">1.0</version>
+    <Cost Currency="USD" urlencoding="UTF-8">None</Cost>
+    <SubTitle urlencoding="UTF-8"/>
+    <SingleTry/>
+    <TotalPoints/>
+    <SchoolName urlencoding="UTF-8"/>
+    <Language urlencoding="UTF-8"/>
+    <NumberOfPages/>
+    <MainFileName/>
+    <CreatorFirstName urlencoding="UTF-8"/>
+    <CreatorLastName urlencoding="UTF-8"/>
+    <Subjects/>
+    <Levels/>
+    <ImagesPresent>false</ImagesPresent>
+    <ImageEquivalents>false</ImageEquivalents>
+    <ImageEquivalentsPresentation>Unspecified</ImageEquivalentsPresentation>
+    <StructuralElements/>
+    <FlashingPresent>false</FlashingPresent>
+    <FlashingSlow>false</FlashingSlow>
+    <FlashingDisablable>false</FlashingDisablable>
+    <MultimediaPresent>false</MultimediaPresent>
+    <MultimediaFormats/>
+    <MultimediaAlternatives/>
+    <MultimediaComment urlencoding="UTF-8"/>
+    <TablesPresent>false</TablesPresent>
+    <TablesPresentation>Unspecified</TablesPresentation>
+    <TableRowsColumnsIdentified>false</TableRowsColumnsIdentified>
+    <ColorUsedForInformation>false</ColorUsedForInformation>
+    <ColorAlternativesPresent>false</ColorAlternativesPresent>
+    <TextContrast>Good</TextContrast>
+    <TextModifiables/>
+    <CommericalAlternative>false</CommericalAlternative>
+    <CommericalAlternativeObjects>false</CommericalAlternativeObjects>
+    <CommericalAlternativeReadingOrder>false</CommericalAlternativeReadingOrder>
+    <FramesPresent>true</FramesPresent>
+    <FormsPresent>false</FormsPresent>
+    <ImageMapsPresent>false</ImageMapsPresent>
+    <TimedResponseUsed>false</TimedResponseUsed>
+    <Hazards>
+        <Hazard>None</Hazard>
+    </Hazards>
+    <SupportTools>
+        <SupportTool>None</SupportTool>
+    </SupportTools>
+    <StandardsSupport>
+        <WCAGLevel>WCAG1A</WCAGLevel>
+        <LegislationSupport>
+            <Legislation>US (Section 508)</Legislation>
+        </LegislationSupport>
+        <StandardsComment urlencoding="UTF-8"/>
+    </StandardsSupport>
+</metadata>
+  </quizpopper>
+  <quizpopper>
+    <id>quizpopper8</id>
+    <type>2</type>
+    <points>5</points>
+    <retry>true</retry>
+    <position>5</position>
+    <page>7</page>
+    <question urlencoding="UTF-8"><![CDATA[A+%22hurricane%22+is+the+most+severe+category+of+the+meteorological+phenomenon+known+as+the+%22tropical+cyclone.%22]]></question>
+    <choices>
+      <choice>
+        <id>q8a</id>
+        <correct>true</correct>
+        <text urlencoding="UTF-8"><![CDATA[True]]></text>
+      </choice>
+      <choice>
+        <id>q8b</id>
+        <correct>false</correct>
+        <text urlencoding="UTF-8"><![CDATA[False]]></text>
+      </choice>
+    </choices>
+<metadata xmlns:csmd="http://www.imsglobal.org/profile/cc/ccv1p2/ccv1p2_imscsmd_v1p0.xsd" xmlns:dc="http://dublincore.org/documents/dces/">
+    <dc:title urlencoding="UTF-8"/>
+    <dc:description urlencoding="UTF-8"/>
+    <dc:creator urlencoding="UTF-8"/>
+    <dc:contributor urlencoding="UTF-8">None</dc:contributor>
+    <dc:source urlencoding="UTF-8">None</dc:source>
+    <dc:relation urlencoding="UTF-8">None</dc:relation>
+    <dc:rights>yes</dc:rights>
+    <dc:coverage urlencoding="UTF-8"/>
+    <dc:subject/>
+    <dc:format>HTML / XHTML</dc:format>
+    <dc:type>Tutorial</dc:type>
+    <dc:audience>Unspecified</dc:audience>
+    <dc:license>Attribution</dc:license>
+    <dc:publisher urlencoding="UTF-8">SoftChalk</dc:publisher>
+    <version urlencoding="UTF-8">1.0</version>
+    <Cost Currency="USD" urlencoding="UTF-8">None</Cost>
+    <SubTitle urlencoding="UTF-8"/>
+    <SingleTry/>
+    <TotalPoints/>
+    <SchoolName urlencoding="UTF-8"/>
+    <Language urlencoding="UTF-8"/>
+    <NumberOfPages/>
+    <MainFileName/>
+    <CreatorFirstName urlencoding="UTF-8"/>
+    <CreatorLastName urlencoding="UTF-8"/>
+    <Subjects/>
+    <Levels/>
+    <ImagesPresent>false</ImagesPresent>
+    <ImageEquivalents>false</ImageEquivalents>
+    <ImageEquivalentsPresentation>Unspecified</ImageEquivalentsPresentation>
+    <StructuralElements/>
+    <FlashingPresent>false</FlashingPresent>
+    <FlashingSlow>false</FlashingSlow>
+    <FlashingDisablable>false</FlashingDisablable>
+    <MultimediaPresent>false</MultimediaPresent>
+    <MultimediaFormats/>
+    <MultimediaAlternatives/>
+    <MultimediaComment urlencoding="UTF-8"/>
+    <TablesPresent>false</TablesPresent>
+    <TablesPresentation>Unspecified</TablesPresentation>
+    <TableRowsColumnsIdentified>false</TableRowsColumnsIdentified>
+    <ColorUsedForInformation>false</ColorUsedForInformation>
+    <ColorAlternativesPresent>false</ColorAlternativesPresent>
+    <TextContrast>Good</TextContrast>
+    <TextModifiables/>
+    <CommericalAlternative>false</CommericalAlternative>
+    <CommericalAlternativeObjects>false</CommericalAlternativeObjects>
+    <CommericalAlternativeReadingOrder>false</CommericalAlternativeReadingOrder>
+    <FramesPresent>true</FramesPresent>
+    <FormsPresent>false</FormsPresent>
+    <ImageMapsPresent>false</ImageMapsPresent>
+    <TimedResponseUsed>false</TimedResponseUsed>
+    <Hazards>
+        <Hazard>None</Hazard>
+    </Hazards>
+    <SupportTools>
+        <SupportTool>None</SupportTool>
+    </SupportTools>
+    <StandardsSupport>
+        <WCAGLevel>WCAG1A</WCAGLevel>
+        <LegislationSupport>
+            <Legislation>US (Section 508)</Legislation>
+        </LegislationSupport>
+        <StandardsComment urlencoding="UTF-8"/>
+    </StandardsSupport>
+</metadata>
+  </quizpopper>
+  <quizpopper>
+    <id>quizpopper9</id>
+    <type>2</type>
+    <points>5</points>
+    <retry>true</retry>
+    <position>6</position>
+    <page>7</page>
+    <question urlencoding="UTF-8"><![CDATA[Typical+hurricanes+are+about+300+miles+wide+but+are+usually+the+same+size]]></question>
+    <choices>
+      <choice>
+        <id>q9a</id>
+        <correct>false</correct>
+        <text urlencoding="UTF-8"><![CDATA[True]]></text>
+      </choice>
+      <choice>
+        <id>q9b</id>
+        <correct>true</correct>
+        <text urlencoding="UTF-8"><![CDATA[False]]></text>
+      </choice>
+    </choices>
+<metadata xmlns:csmd="http://www.imsglobal.org/profile/cc/ccv1p2/ccv1p2_imscsmd_v1p0.xsd" xmlns:dc="http://dublincore.org/documents/dces/">
+    <dc:title urlencoding="UTF-8"/>
+    <dc:description urlencoding="UTF-8"/>
+    <dc:creator urlencoding="UTF-8"/>
+    <dc:contributor urlencoding="UTF-8">None</dc:contributor>
+    <dc:source urlencoding="UTF-8">None</dc:source>
+    <dc:relation urlencoding="UTF-8">None</dc:relation>
+    <dc:rights>yes</dc:rights>
+    <dc:coverage urlencoding="UTF-8"/>
+    <dc:subject/>
+    <dc:format>HTML / XHTML</dc:format>
+    <dc:type>Tutorial</dc:type>
+    <dc:audience>Unspecified</dc:audience>
+    <dc:license>Attribution</dc:license>
+    <dc:publisher urlencoding="UTF-8">SoftChalk</dc:publisher>
+    <version urlencoding="UTF-8">1.0</version>
+    <Cost Currency="USD" urlencoding="UTF-8">None</Cost>
+    <SubTitle urlencoding="UTF-8"/>
+    <SingleTry/>
+    <TotalPoints/>
+    <SchoolName urlencoding="UTF-8"/>
+    <Language urlencoding="UTF-8"/>
+    <NumberOfPages/>
+    <MainFileName/>
+    <CreatorFirstName urlencoding="UTF-8"/>
+    <CreatorLastName urlencoding="UTF-8"/>
+    <Subjects/>
+    <Levels/>
+    <ImagesPresent>false</ImagesPresent>
+    <ImageEquivalents>false</ImageEquivalents>
+    <ImageEquivalentsPresentation>Unspecified</ImageEquivalentsPresentation>
+    <StructuralElements/>
+    <FlashingPresent>false</FlashingPresent>
+    <FlashingSlow>false</FlashingSlow>
+    <FlashingDisablable>false</FlashingDisablable>
+    <MultimediaPresent>false</MultimediaPresent>
+    <MultimediaFormats/>
+    <MultimediaAlternatives/>
+    <MultimediaComment urlencoding="UTF-8"/>
+    <TablesPresent>false</TablesPresent>
+    <TablesPresentation>Unspecified</TablesPresentation>
+    <TableRowsColumnsIdentified>false</TableRowsColumnsIdentified>
+    <ColorUsedForInformation>false</ColorUsedForInformation>
+    <ColorAlternativesPresent>false</ColorAlternativesPresent>
+    <TextContrast>Good</TextContrast>
+    <TextModifiables/>
+    <CommericalAlternative>false</CommericalAlternative>
+    <CommericalAlternativeObjects>false</CommericalAlternativeObjects>
+    <CommericalAlternativeReadingOrder>false</CommericalAlternativeReadingOrder>
+    <FramesPresent>true</FramesPresent>
+    <FormsPresent>false</FormsPresent>
+    <ImageMapsPresent>false</ImageMapsPresent>
+    <TimedResponseUsed>false</TimedResponseUsed>
+    <Hazards>
+        <Hazard>None</Hazard>
+    </Hazards>
+    <SupportTools>
+        <SupportTool>None</SupportTool>
+    </SupportTools>
+    <StandardsSupport>
+        <WCAGLevel>WCAG1A</WCAGLevel>
+        <LegislationSupport>
+            <Legislation>US (Section 508)</Legislation>
+        </LegislationSupport>
+        <StandardsComment urlencoding="UTF-8"/>
+    </StandardsSupport>
+</metadata>
+  </quizpopper>
+  <quizpopper>
+    <id>quizpopper10</id>
+    <type>2</type>
+    <points>5</points>
+    <retry>true</retry>
+    <position>7</position>
+    <page>7</page>
+    <question urlencoding="UTF-8"><![CDATA[Frequently%2C+the+left+side+of+a+hurricane+is+the+most+dangerous+in+terms+of+storm+surge%2C+winds%2C+and+tornadoes.]]></question>
+    <choices>
+      <choice>
+        <id>q10a</id>
+        <correct>false</correct>
+        <text urlencoding="UTF-8"><![CDATA[True]]></text>
+      </choice>
+      <choice>
+        <id>q10b</id>
+        <correct>true</correct>
+        <text urlencoding="UTF-8"><![CDATA[False]]></text>
+      </choice>
+    </choices>
+<metadata xmlns:csmd="http://www.imsglobal.org/profile/cc/ccv1p2/ccv1p2_imscsmd_v1p0.xsd" xmlns:dc="http://dublincore.org/documents/dces/">
+    <dc:title urlencoding="UTF-8"/>
+    <dc:description urlencoding="UTF-8"/>
+    <dc:creator urlencoding="UTF-8"/>
+    <dc:contributor urlencoding="UTF-8">None</dc:contributor>
+    <dc:source urlencoding="UTF-8">None</dc:source>
+    <dc:relation urlencoding="UTF-8">None</dc:relation>
+    <dc:rights>yes</dc:rights>
+    <dc:coverage urlencoding="UTF-8"/>
+    <dc:subject/>
+    <dc:format>HTML / XHTML</dc:format>
+    <dc:type>Tutorial</dc:type>
+    <dc:audience>Unspecified</dc:audience>
+    <dc:license>Attribution</dc:license>
+    <dc:publisher urlencoding="UTF-8">SoftChalk</dc:publisher>
+    <version urlencoding="UTF-8">1.0</version>
+    <Cost Currency="USD" urlencoding="UTF-8">None</Cost>
+    <SubTitle urlencoding="UTF-8"/>
+    <SingleTry/>
+    <TotalPoints/>
+    <SchoolName urlencoding="UTF-8"/>
+    <Language urlencoding="UTF-8"/>
+    <NumberOfPages/>
+    <MainFileName/>
+    <CreatorFirstName urlencoding="UTF-8"/>
+    <CreatorLastName urlencoding="UTF-8"/>
+    <Subjects/>
+    <Levels/>
+    <ImagesPresent>false</ImagesPresent>
+    <ImageEquivalents>false</ImageEquivalents>
+    <ImageEquivalentsPresentation>Unspecified</ImageEquivalentsPresentation>
+    <StructuralElements/>
+    <FlashingPresent>false</FlashingPresent>
+    <FlashingSlow>false</FlashingSlow>
+    <FlashingDisablable>false</FlashingDisablable>
+    <MultimediaPresent>false</MultimediaPresent>
+    <MultimediaFormats/>
+    <MultimediaAlternatives/>
+    <MultimediaComment urlencoding="UTF-8"/>
+    <TablesPresent>false</TablesPresent>
+    <TablesPresentation>Unspecified</TablesPresentation>
+    <TableRowsColumnsIdentified>false</TableRowsColumnsIdentified>
+    <ColorUsedForInformation>false</ColorUsedForInformation>
+    <ColorAlternativesPresent>false</ColorAlternativesPresent>
+    <TextContrast>Good</TextContrast>
+    <TextModifiables/>
+    <CommericalAlternative>false</CommericalAlternative>
+    <CommericalAlternativeObjects>false</CommericalAlternativeObjects>
+    <CommericalAlternativeReadingOrder>false</CommericalAlternativeReadingOrder>
+    <FramesPresent>true</FramesPresent>
+    <FormsPresent>false</FormsPresent>
+    <ImageMapsPresent>false</ImageMapsPresent>
+    <TimedResponseUsed>false</TimedResponseUsed>
+    <Hazards>
+        <Hazard>None</Hazard>
+    </Hazards>
+    <SupportTools>
+        <SupportTool>None</SupportTool>
+    </SupportTools>
+    <StandardsSupport>
+        <WCAGLevel>WCAG1A</WCAGLevel>
+        <LegislationSupport>
+            <Legislation>US (Section 508)</Legislation>
+        </LegislationSupport>
+        <StandardsComment urlencoding="UTF-8"/>
+    </StandardsSupport>
+</metadata>
+  </quizpopper>
+</scoreditems>
+<nonscoreditems>
+  <activity>
+    <id>activity-6</id>
+    <type>9</type>
+    <points>0</points>
+    <retry>true</retry>
+    <position>2</position>
+    <page>3</page>
+    <description urlencoding="UTF-8"><![CDATA[Hot+Spot+Activity]]></description>
+<metadata xmlns:csmd="http://www.imsglobal.org/profile/cc/ccv1p2/ccv1p2_imscsmd_v1p0.xsd" xmlns:dc="http://dublincore.org/documents/dces/">
+    <dc:title urlencoding="UTF-8"/>
+    <dc:description urlencoding="UTF-8"/>
+    <dc:creator urlencoding="UTF-8"/>
+    <dc:contributor urlencoding="UTF-8">None</dc:contributor>
+    <dc:source urlencoding="UTF-8">None</dc:source>
+    <dc:relation urlencoding="UTF-8">None</dc:relation>
+    <dc:rights>yes</dc:rights>
+    <dc:coverage urlencoding="UTF-8"/>
+    <dc:subject/>
+    <dc:format>HTML / XHTML</dc:format>
+    <dc:type>Tutorial</dc:type>
+    <dc:audience>Unspecified</dc:audience>
+    <dc:license>Attribution</dc:license>
+    <dc:publisher urlencoding="UTF-8">SoftChalk</dc:publisher>
+    <version urlencoding="UTF-8">1.0</version>
+    <Cost Currency="USD" urlencoding="UTF-8">None</Cost>
+    <SubTitle urlencoding="UTF-8"/>
+    <SingleTry/>
+    <TotalPoints/>
+    <SchoolName urlencoding="UTF-8"/>
+    <Language urlencoding="UTF-8"/>
+    <NumberOfPages/>
+    <MainFileName/>
+    <CreatorFirstName urlencoding="UTF-8"/>
+    <CreatorLastName urlencoding="UTF-8"/>
+    <Subjects/>
+    <Levels/>
+    <ImagesPresent>false</ImagesPresent>
+    <ImageEquivalents>false</ImageEquivalents>
+    <ImageEquivalentsPresentation>Unspecified</ImageEquivalentsPresentation>
+    <StructuralElements/>
+    <FlashingPresent>false</FlashingPresent>
+    <FlashingSlow>false</FlashingSlow>
+    <FlashingDisablable>false</FlashingDisablable>
+    <MultimediaPresent>false</MultimediaPresent>
+    <MultimediaFormats/>
+    <MultimediaAlternatives/>
+    <MultimediaComment urlencoding="UTF-8"/>
+    <TablesPresent>false</TablesPresent>
+    <TablesPresentation>Unspecified</TablesPresentation>
+    <TableRowsColumnsIdentified>false</TableRowsColumnsIdentified>
+    <ColorUsedForInformation>false</ColorUsedForInformation>
+    <ColorAlternativesPresent>false</ColorAlternativesPresent>
+    <TextContrast>Good</TextContrast>
+    <TextModifiables/>
+    <CommericalAlternative>false</CommericalAlternative>
+    <CommericalAlternativeObjects>false</CommericalAlternativeObjects>
+    <CommericalAlternativeReadingOrder>false</CommericalAlternativeReadingOrder>
+    <FramesPresent>true</FramesPresent>
+    <FormsPresent>false</FormsPresent>
+    <ImageMapsPresent>false</ImageMapsPresent>
+    <TimedResponseUsed>false</TimedResponseUsed>
+    <Hazards>
+        <Hazard>None</Hazard>
+    </Hazards>
+    <SupportTools>
+        <SupportTool>None</SupportTool>
+    </SupportTools>
+    <StandardsSupport>
+        <WCAGLevel>WCAG1A</WCAGLevel>
+        <LegislationSupport>
+            <Legislation>US (Section 508)</Legislation>
+        </LegislationSupport>
+        <StandardsComment urlencoding="UTF-8"/>
+    </StandardsSupport>
+</metadata>
+  </activity>
+</nonscoreditems>
+<inlinemedia>
+  <inlineobject>
+    <id>inlinemedia1</id>
+<metadata xmlns:csmd="http://www.imsglobal.org/profile/cc/ccv1p2/ccv1p2_imscsmd_v1p0.xsd" xmlns:dc="http://dublincore.org/documents/dces/">
+    <dc:title urlencoding="UTF-8"/>
+    <dc:description urlencoding="UTF-8"/>
+    <dc:creator urlencoding="UTF-8"/>
+    <dc:contributor urlencoding="UTF-8">None</dc:contributor>
+    <dc:source urlencoding="UTF-8">None</dc:source>
+    <dc:relation urlencoding="UTF-8">None</dc:relation>
+    <dc:rights>yes</dc:rights>
+    <dc:coverage urlencoding="UTF-8"/>
+    <dc:subject/>
+    <dc:format>HTML / XHTML</dc:format>
+    <dc:type>Tutorial</dc:type>
+    <dc:audience>Unspecified</dc:audience>
+    <dc:license>Attribution</dc:license>
+    <dc:publisher urlencoding="UTF-8">SoftChalk</dc:publisher>
+    <version urlencoding="UTF-8">1.0</version>
+    <Cost Currency="USD" urlencoding="UTF-8">None</Cost>
+    <SubTitle urlencoding="UTF-8"/>
+    <SingleTry/>
+    <TotalPoints/>
+    <SchoolName urlencoding="UTF-8"/>
+    <Language urlencoding="UTF-8"/>
+    <NumberOfPages/>
+    <MainFileName/>
+    <CreatorFirstName urlencoding="UTF-8"/>
+    <CreatorLastName urlencoding="UTF-8"/>
+    <Subjects/>
+    <Levels/>
+    <ImagesPresent>false</ImagesPresent>
+    <ImageEquivalents>false</ImageEquivalents>
+    <ImageEquivalentsPresentation>Unspecified</ImageEquivalentsPresentation>
+    <StructuralElements/>
+    <FlashingPresent>false</FlashingPresent>
+    <FlashingSlow>false</FlashingSlow>
+    <FlashingDisablable>false</FlashingDisablable>
+    <MultimediaPresent>false</MultimediaPresent>
+    <MultimediaFormats/>
+    <MultimediaAlternatives/>
+    <MultimediaComment urlencoding="UTF-8"/>
+    <TablesPresent>false</TablesPresent>
+    <TablesPresentation>Unspecified</TablesPresentation>
+    <TableRowsColumnsIdentified>false</TableRowsColumnsIdentified>
+    <ColorUsedForInformation>false</ColorUsedForInformation>
+    <ColorAlternativesPresent>false</ColorAlternativesPresent>
+    <TextContrast>Good</TextContrast>
+    <TextModifiables/>
+    <CommericalAlternative>false</CommericalAlternative>
+    <CommericalAlternativeObjects>false</CommericalAlternativeObjects>
+    <CommericalAlternativeReadingOrder>false</CommericalAlternativeReadingOrder>
+    <FramesPresent>true</FramesPresent>
+    <FormsPresent>false</FormsPresent>
+    <ImageMapsPresent>false</ImageMapsPresent>
+    <TimedResponseUsed>false</TimedResponseUsed>
+    <Hazards>
+        <Hazard>None</Hazard>
+    </Hazards>
+    <SupportTools>
+        <SupportTool>None</SupportTool>
+    </SupportTools>
+    <StandardsSupport>
+        <WCAGLevel>WCAG1A</WCAGLevel>
+        <LegislationSupport>
+            <Legislation>US (Section 508)</Legislation>
+        </LegislationSupport>
+        <StandardsComment urlencoding="UTF-8"/>
+    </StandardsSupport>
+</metadata>
+  </inlineobject>
+</inlinemedia>
+<ContentItems xmlns:csmd="http://www.imsglobal.org/profile/cc/ccv1p2/ccv1p2_imscsmd_v1p0.xsd" xmlns:dc="http://dublincore.org/documents/dces/">
+    <ContentItem>
+        <dc:title urlencoding="UTF-8"><![CDATA[All+About+Hurricanes...]]></dc:title>
+        <dc:description urlencoding="UTF-8"/>
+        <dc:creator urlencoding="UTF-8"/>
+        <dc:contributor urlencoding="UTF-8">None</dc:contributor>
+        <dc:source urlencoding="UTF-8">None</dc:source>
+        <dc:relation urlencoding="UTF-8">None</dc:relation>
+        <dc:rights>yes</dc:rights>
+        <dc:coverage urlencoding="UTF-8"/>
+        <dc:subject>Science</dc:subject>
+        <keyword urlencoding="UTF-8">Hurricane+Names</keyword>
+        <keyword urlencoding="UTF-8">The+Birth+of+a+Tropical+Cyclone</keyword>
+        <keyword urlencoding="UTF-8">Stages+of+Hurricane+Development</keyword>
+        <keyword urlencoding="UTF-8">Structure</keyword>
+        <keyword urlencoding="UTF-8">Observation</keyword>
+        <keyword urlencoding="UTF-8">Summary</keyword>
+        <keyword urlencoding="UTF-8">Quiz+Time</keyword>
+        <keyword urlencoding="UTF-8">Credits</keyword>
+        <keyword urlencoding="UTF-8">All+About+Hurricanes...</keyword>
+        <keyword urlencoding="UTF-8">All+About+Hurricanes...</keyword>
+        <dc:format>HTML / XHTML</dc:format>
+        <dc:type>Tutorial</dc:type>
+        <dc:audience>Unspecified</dc:audience>
+        <dc:license>Attribution</dc:license>
+        <dc:publisher urlencoding="UTF-8">SoftChalk+LessonBuilder</dc:publisher>
+        <version urlencoding="UTF-8">1.0</version>
+        <Cost Currency="USD" urlencoding="UTF-8">None</Cost>
+        <SubTitle urlencoding="UTF-8"/>
+        <SingleTry>false</SingleTry>
+        <TotalPoints>30</TotalPoints>
+        <SchoolName urlencoding="UTF-8"/>
+        <Language urlencoding="UTF-8">English</Language>
+        <NumberOfPages>8</NumberOfPages>
+        <MainFileName>hurricanes</MainFileName>
+        <CreatorFirstName urlencoding="UTF-8"/>
+        <CreatorLastName urlencoding="UTF-8"/>
+        <Subjects>
+            <Subject>Science</Subject>
+        </Subjects>
+        <Levels>
+            <Level>Grade 12</Level>
+            <Level>Grade 11</Level>
+            <Level>Grade 10</Level>
+            <Level>Grade 9</Level>
+            <Level>Grade 8</Level>
+            <Level>Grade 7</Level>
+            <Level>Grade 6</Level>
+            <Level>Grade 5</Level>
+            <Level>Grade 4</Level>
+            <Level>Grade 3</Level>
+            <Level>Grade 2</Level>
+            <Level>Grade 1</Level>
+            <Level>Kindergarten</Level>
+            <Level>Pre-K12</Level>
+        </Levels>
+        <ImagesPresent>false</ImagesPresent>
+        <ImageEquivalents>false</ImageEquivalents>
+        <ImageEquivalentsPresentation>Unspecified</ImageEquivalentsPresentation>
+        <StructuralElements/>
+        <FlashingPresent>false</FlashingPresent>
+        <FlashingSlow>false</FlashingSlow>
+        <FlashingDisablable>false</FlashingDisablable>
+        <MultimediaPresent>false</MultimediaPresent>
+        <MultimediaFormats/>
+        <MultimediaAlternatives/>
+        <MultimediaComment urlencoding="UTF-8"/>
+        <TablesPresent>false</TablesPresent>
+        <TablesPresentation>Unspecified</TablesPresentation>
+        <TableRowsColumnsIdentified>false</TableRowsColumnsIdentified>
+        <ColorUsedForInformation>false</ColorUsedForInformation>
+        <ColorAlternativesPresent>false</ColorAlternativesPresent>
+        <TextContrast>Good</TextContrast>
+        <TextModifiables/>
+        <CommericalAlternative>false</CommericalAlternative>
+        <CommericalAlternativeObjects>false</CommericalAlternativeObjects>
+        <CommericalAlternativeReadingOrder>false</CommericalAlternativeReadingOrder>
+        <FramesPresent>true</FramesPresent>
+        <FormsPresent>false</FormsPresent>
+        <ImageMapsPresent>false</ImageMapsPresent>
+        <TimedResponseUsed>false</TimedResponseUsed>
+        <Hazards>
+            <Hazard>None</Hazard>
+        </Hazards>
+        <SupportTools>
+            <SupportTool>None</SupportTool>
+        </SupportTools>
+        <StandardsSupport>
+            <WCAGLevel>WCAG1A</WCAGLevel>
+            <LegislationSupport>
+                <Legislation>US (Section 508)</Legislation>
+            </LegislationSupport>
+            <StandardsComment urlencoding="UTF-8"/>
+        </StandardsSupport>
+    </ContentItem>
+</ContentItems>
+</lesson>

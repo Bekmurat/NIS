@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<matchingActivity gradeSetsIndividually="false">
+    <set columns="3" id="0" rows="4">
+        <title encoding="true"><![CDATA[Match+the+IPA+Equivalent]]></title>
+        <allowRetry>true</allowRetry>
+        <matches>
+            <matchset id="0" value="1.0">
+                <left encoding="true"><![CDATA[little]]></left>
+                <right encoding="true"><![CDATA[l%26%23618%3Bt%26%23601%3Bl]]></right>
+            </matchset>
+            <matchset id="1" value="1.0">
+                <left encoding="true"><![CDATA[uncle]]></left>
+                <right encoding="true"><![CDATA[%26%23652%3B%26%23331%3Bk%26%23601%3Bl]]></right>
+            </matchset>
+            <matchset id="2" value="1.0">
+                <left encoding="true"><![CDATA[battleship]]></left>
+                <right encoding="true"><![CDATA[b%26aelig%3Bt%26%23601%3Bl%26%2364]]></right>
+            </matchset>
+            <matchset id="3" value="1.0">
+                <left encoding="true"><![CDATA[listen]]></left>
+                <right encoding="true"><![CDATA[l%26%23618%3Bs%26%23601%3Bn]]></right>
+            </matchset>
+            <matchset id="4" value="1.0">
+                <left encoding="true"><![CDATA[very]]></left>
+                <right encoding="true"><![CDATA[veri]]></right>
+            </matchset>
+            <matchset id="5" value="1.0">
+                <left encoding="true"><![CDATA[previous]]></left>
+                <right encoding="true"><![CDATA[pri%3Avi%26%23601%3Bs]]></right>
+            </matchset>
+        </matches>
+    </set>
+    <set columns="3" id="1" rows="4">
+        <title encoding="true"><![CDATA[Match+the+IPA+Equivalent]]></title>
+        <allowRetry>true</allowRetry>
+        <matches>
+            <matchset id="0" value="1.0">
+                <left encoding="true"><![CDATA[little]]></left>
+                <right encoding="true"><![CDATA[l%26%23618%3Bt%26%23601%3Bl]]></right>
+            </matchset>
+            <matchset id="1" value="1.0">
+                <left encoding="true"><![CDATA[uncle]]></left>
+                <right encoding="true"><![CDATA[%26%23652%3B%26%23331%3Bk%26%23601%3Bl]]></right>
+            </matchset>
+            <matchset id="2" value="1.0">
+                <left encoding="true"><![CDATA[battleship]]></left>
+                <right encoding="true"><![CDATA[b%26aelig%3Bt%26%23601%3Bl%26%2364]]></right>
+            </matchset>
+            <matchset id="3" value="1.0">
+                <left encoding="true"><![CDATA[listen]]></left>
+                <right encoding="true"><![CDATA[l%26%23618%3Bs%26%23601%3Bn]]></right>
+            </matchset>
+            <matchset id="4" value="1.0">
+                <left encoding="true"><![CDATA[very]]></left>
+                <right encoding="true"><![CDATA[veri]]></right>
+            </matchset>
+            <matchset id="5" value="1.0">
+                <left encoding="true"><![CDATA[previous]]></left>
+                <right encoding="true"><![CDATA[pri%3Avi%26%23601%3Bs]]></right>
+            </matchset>
+        </matches>
+    </set>
+</matchingActivity>

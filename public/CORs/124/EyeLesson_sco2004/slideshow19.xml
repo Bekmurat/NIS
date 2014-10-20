@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<slidefile>
+  <color>dfeaff</color>
+	<viewText>View Text</viewText>
+	<slideText>View Slide</slideText>
+  <minimumDuration>5</minimumDuration>
+<slidedata value="1">
+	<slide>lessonimages/slideImage19_1.jpg</slide>
+	<audio></audio>
+	<title>Normal+Vision</title>
+	<content>A+scene+as+it+might+be+viewed+by+a+person+with+normal+vision</content>
+	<width>360</width>
+	<height>300</height>
+</slidedata>
+<slidedata value="2">
+	<slide>lessonimages/slideImage19_2.jpg</slide>
+	<audio>lessonimages/slideAudio19_2-cataract.mp3</audio>
+	<title>Cataract</title>
+	<content>A+cataract+is+a+clouding+of+the+lens+in+the+eye+that+affects+vision.+Most+cataracts+are+related+to+aging.</content>
+	<width>360</width>
+	<height>300</height>
+</slidedata>
+<slidedata value="3">
+	<slide>lessonimages/slideImage19_3.jpg</slide>
+	<audio>lessonimages/slideAudio19_3-retinitis.mp3</audio>
+	<title>Retinitis+Pigmentosa</title>
+	<content>Retinitis+pigmentosa+is+a+group+of+inherited+retinal+diseases+that+affects+about+100%2C000+Americans+and+1.5+million+people+worldwide.</content>
+	<width>400</width>
+	<height>267</height>
+</slidedata>
+<slidedata value="4">
+	<slide>lessonimages/slideImage19_4.jpg</slide>
+	<audio></audio>
+	<title>Myopia</title>
+	<content>Myopia%2C+or+nearsightedness%2C+is+when+the+cornea+is+curved+too+much.</content>
+	<width>360</width>
+	<height>300</height>
+</slidedata>
+<slidedata value="5">
+	<slide>lessonimages/slideImage19_5.jpg</slide>
+	<audio></audio>
+	<title>Glaucoma</title>
+	<content>Glaucoma+is+a+group+of+diseases+that+can+damage+the+eye%27s+optic+nerve+and+result+in+vision+loss+and+blindness.+It+is+one+of+the+main+causes+of+blindness+in+the+United+States.</content>
+	<width>400</width>
+	<height>267</height>
+</slidedata>
+<slidedata value="6">
+	<slide>lessonimages/slideImage19_6.jpg</slide>
+	<audio></audio>
+	<title>Age-related+macular+degeneration</title>
+	<content>Age-related+macular+degeneration+%28AMD%29+is+a+disease+associated+with+aging+that+gradually+destroys+sharp%2C+central+vision.</content>
+	<width>400</width>
+	<height>267</height>
+</slidedata>
+<slidedata value="7">
+	<slide>lessonimages/slideImage19_7.jpg</slide>
+	<audio></audio>
+	<title>Diabetic+retinopathy</title>
+	<content>Diabetic+retinopathy+is+the+most+common+diabetic+eye+disease+and+a+leading+cause+of+blindness+in+American+adults.+It+is+caused+by+changes+in+the+blood+vessels+of+the+retina.</content>
+	<width>400</width>
+	<height>267</height>
+</slidedata>
+</slidefile>
