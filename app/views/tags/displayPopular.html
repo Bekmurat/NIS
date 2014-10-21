@@ -11,12 +11,12 @@
         <span>Дата: ${_resource.uploadDate.format('dd-MM-yy')}</span><br />
         <span>Тип: ${_resource.contentType}</span><br />
         <span>Просмотров: ${_resource.viewed}</span><br />
-		<div id='${_resource.id}stars'></div> <span id="rate" style="margin-top: 5px;">(${_resource.rating})</span>
+		<div id='${_resource.id}Pstars'></div> <span id="rate" style="margin-top: 5px;">(${_resource.rating})</span>
 	</div>
 </div>
  
 <script type="text/javascript" charset="utf-8">
-	generate_static_stars(${_resource.id}, ${_resource.rating}, 5, "${_resource.id}stars");
+	generate_static_stars(${_resource.id}, ${_resource.rating}, 5, "${_resource.id}Pstars");
 </script>
 
  

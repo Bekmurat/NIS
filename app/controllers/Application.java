@@ -100,7 +100,13 @@ public class Application extends Controller {
     	}
         String randomID = Codec.UUID();
         String menu = menuGenerate();
-        render(resource, randomID, menu);
+        
+        String categoryHierarhy = "";
+        for(Category category:resource.categories){
+        	categoryHierarhy += category.name + "/";
+        }
+        categoryHierarhy = categoryHierarhy.substring(0, categoryHierarhy.length()-1);
+        render(resource, randomID, menu, categoryHierarhy);
     }
 
     public static void resourceComment(
