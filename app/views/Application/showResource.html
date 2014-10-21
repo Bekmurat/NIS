@@ -1,10 +1,6 @@
 #{extends 'main.html' /}
 #{set title:'Карточка ЦОРа' /}
  
-#{if flash.success}
-    <p class="success">${flash.success}</p>
-#{/if}
-
 #{displayFull resource:resource /}
 
 					<div class="product-tab">
@@ -12,7 +8,7 @@
 							<div class="form-horizontal">
 								#{form @Application.resourceComment(resource.id)}
 									#{ifErrors}
-									    <p class="error">
+									    <p class="error" style="color: red;">
 									        ${errors[0]}
 									    </p>
 									#{/ifErrors} 

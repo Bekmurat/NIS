@@ -30,7 +30,7 @@ public class Application extends Controller {
     }
     public static String menuGenerate(){
 
-        List<Category> categories = Category.find("order by parent_id_").fetch();
+        List<Category> categories = Category.find("order by parent_id_, id").fetch();
         Map<Long, List<Category>> map = new HashMap<Long, List<Category>>();
 
         List<Category> topLevelMenu = new ArrayList<Category>();
@@ -154,7 +154,7 @@ public class Application extends Controller {
     	resource.rating = Double.valueOf(df.format(resource.rating));
     	resource.rateCount++;
     	resource.save();
-    	renderJSON(resource.rating);
+    	renderJSON("{\"rating\": "+resource.rating+", \"count\": "+resource.rateCount+"}");
     }
     
     public static void playScorm(Long resId){

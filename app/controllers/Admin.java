@@ -64,59 +64,28 @@ public class Admin extends Controller {
             render("Admin/addResource.html", categories, languages);
         }
         
-    	System.out.println(categoryId+title);
     	Resource resource = new Resource(title, keywords, author, description, contentType, categoryId, languageId);
-//    	resource.poster = new Blob();
-//    	resource.save();
-//    	
-//    	System.out.println(poster.getName());
-//    	
-//    	try {
-//			resource.poster.set(new FileInputStream(poster), MimeTypes.getContentType(poster.getName()));
-//		} catch (FileNotFoundException e) {
-//			e.printStackTrace();
-//		}
-//    	resource.save();
-//    	resource.posterName = resource.poster.getFile().getName();
-//    	resource.save();
-//
-//    	System.out.println(resource.poster.getUUID());
-//    	System.out.println(resource.poster.getFile().getName());
-    	
-		String posterMimeType = MimeTypes.getMimeType(poster.getName(), "application/octet-stream");
-		String corMimeType = MimeTypes.getMimeType(cor.getName(), "application/octet-stream");
-		resource.poster = new Blob();
-		resource.cor = new Blob();
-		try {
-			FileInputStream fis = new FileInputStream(poster);
-			resource.poster.set(fis, posterMimeType);
-			fis.close();
-			FileInputStream cis = new FileInputStream(cor);
-			resource.cor.set(cis, corMimeType);
-			cis.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		resource.resourceSize = resource.cor.length();
+		resource.resourceSize = cor.length();
 		resource.save();
 		
-		if(resource.contentType.equals("scorm")){
-			resource.corName = cor.getName().substring(0, cor.getName().length()-4);
-			File unzippedCOR = new File("public/CORs/" + resource.id + "/"  + resource.corName);
-			Files.unzip(resource.cor.getFile(), unzippedCOR);
-			resource.save();
-		}else{
-			resource.corName = cor.getName();
-			resource.cor.getFile().renameTo(new File("public/CORs/" + resource.id + "/"  + resource.corName));
-			resource.save();
-		}
 		resource.posterName = poster.getName();
 		resource.save();
-		resource.poster.getFile().renameTo(new File("public/CORs/" + resource.id + "/" + resource.posterName));
-		resource.poster = null;
-		resource.cor = null;
+		File dir = new File("public/CORs/" + resource.id);
+		dir.mkdirs();
+		poster.renameTo(new File("public/CORs/" + resource.id + "/" + resource.posterName));
+		System.out.println("added" + poster.getName());
+
+		if(resource.contentType.equals("SCORM")){
+			resource.corName = cor.getName().substring(0, cor.getName().length()-4);
+			File unzippedCOR = new File("public/CORs/" + resource.id + "/"  + resource.corName);
+			Files.unzip(cor, unzippedCOR);
+			resource.save();
+		}else{
+			System.out.println(resource.contentType);
+			resource.corName = cor.getName();
+			cor.renameTo(new File("public/CORs/" + resource.id + "/" + resource.corName));
+			resource.save();
+		}
 		listResources();
     }
     
@@ -165,8 +134,6 @@ public class Admin extends Controller {
     
     public static void deleteResource(long id) {
  	   final Resource resource = Resource.findById(id);
- 	   resource.poster.getFile().delete();
- 	   resource.cor.getFile().delete();
  	   resource.delete();
  	   listResources();
     }

@@ -80,9 +80,6 @@ public class Resource extends Model {
 	@Column(name="COR_NAME_")
 	public String corName;
 	
-	public Blob poster;
-	public Blob cor;
-	
 	@OneToMany(mappedBy="resource", cascade=CascadeType.ALL)
 	public List<Comment> comments;
 	 

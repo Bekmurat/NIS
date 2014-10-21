@@ -283,7 +283,8 @@ function currentStarState(currentRating, max){
 //second param - id of div where to attach stars
 function generate_stars(resId, currentRating, max, attach){
     //get div container
-    var container = document.getElementById(attach);
+    var container = $("#"+attach);
+    container.html("");
     console.log(container);
     for(var i = 1; i <= max; i++){
         //create star
@@ -292,11 +293,11 @@ function generate_stars(resId, currentRating, max, attach){
         else div.setAttribute("class", "staron");
         div.setAttribute("id", "rate_" + i);
         //set events
-        div.setAttribute("onmouseover", "star(" + i + ")");
-        div.setAttribute("onmouseout", "unstar(" + max + ")");
+        //div.setAttribute("onmouseover", "star(" + i + ")");
+        //div.setAttribute("onmouseout", "unstar(" + max + ")");
         div.setAttribute("onclick", "updateRating(" + resId + ", " + i + ")");
         //append child to contaner
-        container.appendChild(div);
+        container.append(div);
     }
     // container.setAttribute("onmouseout", "currentStarState(" + currentRating + ", " + max + ")");
 }
@@ -319,5 +320,5 @@ function generate_static_stars(resId, currentRating, max, attach){
 
 function updateRating(resId, r){
     console.log(resId + " -> " + r);
-    $.post("updateRating", {"resId":resId, "r":r}, function(data){$("#rate").html(data)}, "json");
+    $.post("updateRating", {"resId":resId, "r":r}, function(data){ generate_stars(resId, data.rating, 5, "stars"); $("#rate").html(data.rating); $("#rateCount").html(data.count);}, "json");
 }

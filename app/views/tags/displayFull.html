@@ -6,12 +6,9 @@
 
 						<div class="product-details clearfix">
 							<div class="span5">
-								<div class="product-title">
-									<h4>${_resource.title}</h4>
-								</div>
 								<div class="product-img">
 
-									#{if _resource.contentType == "audio"}
+									#{if _resource.contentType == "Аудио"}
 										<a class="fancybox" href="img/650x700.jpg"><img src="@{'/public/CORs'}/${_resource.id}/${_resource.posterName}" /></a>
 										<audio src="@{'public/CORs'}/${_resource.id}/${_resource.corName}" controls>
 										<source src="sound.ogg"> 
@@ -20,7 +17,7 @@
 									</audio>
 									#{/if} 
 									
-									#{if _resource.contentType == "video"}
+									#{if _resource.contentType == "Видео"}
 										<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="370" height="250"
 										      poster="@{'/public/CORs'}/${_resource.id}/${_resource.posterName}"
 										      data-setup="{}">
@@ -29,7 +26,7 @@
 										</video>
 									#{/if}
 									
-									#{if _resource.contentType == "scorm"}
+									#{if _resource.contentType == "SCORM"}
 										<img src="@{'/public/CORs'}/${_resource.id}/${_resource.posterName}" /> <br />
 										<a href="@{Application.playScorm(_resource.id)}" target="_blank"> Открыть SCORM</a> 
 									#{/if}
@@ -40,22 +37,28 @@
 							<div class="span4">
 								<div class="product-set">
 									<div class="product-price">
-										<span> ${_resource.contentType}</span>
+										<span> ${_resource.title}</span>
 									</div><!--end product-price-->
 									<div class="product-rate clearfix">
 										<div id='stars'></div> <span id="rate">${_resource.rating}</span>
-										<span>${_resource.rateCount} Оценок</span>
+										Оценил(и):<span id="rateCount">${_resource.rateCount} </span>
 									</div><!--end product-inputs-->
 									<div class="product-info">
 										<dl class="dl-horizontal">
 										  <dt>Автор:</dt>
 										  <dd>${_resource.author}</dd>
 
+										  <dt>Тип:</dt>
+										  <dd>${_resource.contentType}</dd>
+
 										  <dt>Дата:</dt>
 										  <dd>${_resource.uploadDate.format('dd MMM yy')}</dd>
 
 										  <dt>Просмотров:</dt>
 										  <dd>${_resource.viewed}</dd>
+
+										  <dt>Хэштеги:</dt>
+										  <dd>${_resource.keywords}</dd>
 
 										  <dt>Описание:</dt>
 										  <dd>${_resource.description}</dd>
@@ -73,7 +76,9 @@
 					<div class="product-tab">
 						<div class="tab-pane" id="read-review">
 					        <h3>
-					            ${_resource.comments.size() ?: 'нет'} комментарий
+					            #{if _resource.comments.size() < 1}
+					            	Нет комментариев
+					            #{/if}
 					        </h3>
 					        #{list items:_resource.comments, as:'comment'}
 								<div class="single-review clearfix">
