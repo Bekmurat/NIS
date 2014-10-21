@@ -1,9 +1,0 @@
-CompilerOracle: exclude jregex/Pretokenizer.next
-Listening for transport dt_socket at address: 8000
-10:36:49,032 INFO  ~ Starting /home/bekmurat/appNIS
-10:36:49,035 INFO  ~ Module crud is available (/home/bekmurat/Metaphor/play-1.2.7/modules/crud)
-10:36:49,545 WARN  ~ You're running Play! in DEV mode
-10:36:49,600 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
-~ Server is up and running
-10:36:57,615 INFO  ~ Connected to jdbc:postgresql:nis_db
-10:36:58,449 INFO  ~ Application 'appNIS' is now started !

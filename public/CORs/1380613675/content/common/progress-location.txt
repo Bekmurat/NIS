@@ -1,1 +1,0 @@
-<def> <selector type="picturePlayer" /> <d n="progress-location" v="center"/> </def> 

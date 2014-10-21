@@ -1,9 +1,0 @@
-<?xml version="1.0"?> 
-<styles>
-	<style id="pCenter" mode="force">
-		<def>
-			<selector type="picturePlayer" />
-			<d n="progress-location" v="center"/> 
-		</def>		
-	</style>
-</styles>

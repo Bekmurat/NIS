@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<toc xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.ydp.pl/leo/toc'><section id='_main'><section id='b1' name='4-7'><item xlink:href='1460.flo' id='a7' name='Что мы знаем о времени и работе?'/></section></section><flashcs/></toc>
